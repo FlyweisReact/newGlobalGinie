@@ -127,6 +127,7 @@ const HomeScreen = () => {
         CUSTOMER REVIEWS
       </p>
       <Reviews />
+      {/* kjhbmbmbkjbjh */}
 
       <div className="pro" style={{ marginTop: "5%" }}>
         <h1>BEST DEAL'S</h1>

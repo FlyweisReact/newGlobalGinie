@@ -15,6 +15,7 @@ import Whatsapp from "../Images/Whatsapp_icon-removebg-preview.png";
 import Footer from "../Component/Footer";
 import img from "../Images/Vitamin_C-removebg-preview.png";
 import { useNavigate } from "react-router-dom";
+import ResBigCarousel from "../Component/ResBigCarousel";
 import newImg from "../Images/Canon_EF_70-200mm_f2.8L_IS_III_USM_Lens_for_Canon-removebg-preview.png";
 import newImg2 from "../Images/61tE7IcuLmL._SL1500_-removebg-preview.png";
 import newImg4 from "../Images/71LKSq7g51L._AC_SL1500_-removebg-preview.png";
@@ -127,6 +128,7 @@ const HomeScreen = () => {
         CUSTOMER REVIEWS
       </p>
       <Reviews />
+      {/* kjhbmbmbkjbjh */}
 
       <div className="pro" style={{ marginTop: "5%" }}>
         <h1>BEST DEAL'S</h1>

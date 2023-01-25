@@ -2363,9 +2363,6 @@ input[type="date"] {
     width: 100%;
     height: 100%;
   }
-  .myNewOldSec .right .group .dives .imageDiv{
-    height: 220px;
-  }
   .many {
     max-width: 1000px;
   }
@@ -2433,15 +2430,16 @@ input[type="date"] {
   }
   .myNewOldSec {
     max-width: 800px;
+    display: block !important;
   }
-  /* .myNewOldSec .left{
+  .myNewOldSec .left{
     width: 100%;
     height: 400px;
   }
   .myNewOldSec .right {
     width: 100%;
     margin-top: 2%;
-    } */
+    }
   .many {
     max-width: 800px;
   }
