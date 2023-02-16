@@ -56,13 +56,10 @@ const Life = () => {
     document.getElementById("fileB").click();
   };
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
-
-  
-  function NavigationHandler (data) {
-    navigate(data)
-    
+  function NavigationHandler(data) {
+    navigate(data);
   }
 
   return (
@@ -93,7 +90,15 @@ const Life = () => {
         </div>
       </div>
 
-      <h1 style={{ textAlign: "center", marginTop: "3%" ,fontFamily : 'Monument' }}>SHOP BY</h1>
+      <h1
+        style={{
+          textAlign: "center",
+          marginTop: "3%",
+          fontFamily: "MonumentMine",
+        }}
+      >
+        SHOP BY
+      </h1>
       <div className="child">
         <div className="month" style={{ minWidth: "10%" }}>
           MEN
@@ -133,17 +138,22 @@ const Life = () => {
           <img src={New} alt="" />
         </div>
       </div>
- 
 
       <div className="pro" style={{ marginTop: "8%" }}>
         <h1>ATHLETE’s CHOICE</h1>
-        <button   onClick={() => NavigationHandler('/allProduct')}>View all</button>
+        <button onClick={() => NavigationHandler("/allProduct")}>
+          View all
+        </button>
       </div>
 
       <div className="product">
         <Card className="ProductCard" style={{ paddingTop: "80px" }}>
           <Card.Body>
-            <img src={img3} alt=""  onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img3}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -158,7 +168,11 @@ const Life = () => {
 
         <Card className="ProductCard" style={{ paddingTop: "20px" }}>
           <Card.Body>
-            <img src={img5} alt=""  onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img5}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -172,7 +186,12 @@ const Life = () => {
         </div>
         <Card className="ProductCard" style={{ width: "350px" }}>
           <Card.Body>
-            <img src={img4} alt="" style={{ paddingTop: "100px" }} onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img4}
+              alt=""
+              style={{ paddingTop: "100px" }}
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -185,7 +204,12 @@ const Life = () => {
         </div>
         <Card className="ProductCard" style={{ width: "350px" }}>
           <Card.Body>
-            <img src={img6} alt="" style={{ paddingTop: "50px" }} onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img6}
+              alt=""
+              style={{ paddingTop: "50px" }}
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -252,7 +276,9 @@ const Life = () => {
 
       <div className="pro" style={{ marginTop: "8%" }}>
         <h1>WHAT'S TRENDING</h1>
-        <button onClick={() => NavigationHandler('/allProduct')}>View all</button>
+        <button onClick={() => NavigationHandler("/allProduct")}>
+          View all
+        </button>
       </div>
 
       <div className="product">
@@ -261,7 +287,11 @@ const Life = () => {
           style={{ paddingTop: "150px", width: "350px" }}
         >
           <Card.Body>
-            <img src={img8} alt=""  onClick={() => NavigationHandler('/single')}/>
+            <img
+              src={img8}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -279,7 +309,11 @@ const Life = () => {
           style={{ paddingTop: "40px", width: "350px" }}
         >
           <Card.Body>
-            <img src={img9} alt="" onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img9}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -296,7 +330,11 @@ const Life = () => {
           style={{ padding: "60px", width: "380px" }}
         >
           <Card.Body>
-            <img src={img10} alt="" onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img10}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -309,7 +347,11 @@ const Life = () => {
         </div>
         <Card className="ProductCard" style={{ paddingTop: "100px" }}>
           <Card.Body>
-            <img src={img11} alt=""  onClick={() => NavigationHandler('/single')}/>
+            <img
+              src={img11}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -375,7 +417,12 @@ const Life = () => {
 
       <div className="pro" style={{ marginTop: "5%" }}>
         <h1>BEST DEALS</h1>
-        <button className="shop" onClick={() => NavigationHandler('/allProduct')}>Shop Now</button>
+        <button
+          className="shop"
+          onClick={() => NavigationHandler("/allProduct")}
+        >
+          Shop Now
+        </button>
       </div>
 
       <div className="photo">
@@ -385,7 +432,11 @@ const Life = () => {
         <div className="right">
           <div className="up">
             <div className="images">
-              <img src={img13} alt="" onClick={() => NavigationHandler('/single')} />
+              <img
+                src={img13}
+                alt=""
+                onClick={() => NavigationHandler("/single")}
+              />
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality
                 <br />
@@ -395,7 +446,11 @@ const Life = () => {
               </p>
             </div>
             <div className="images">
-              <img src={img14} alt="" onClick={() => NavigationHandler('/single')} />
+              <img
+                src={img14}
+                alt=""
+                onClick={() => NavigationHandler("/single")}
+              />
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality <br />
                 Headset — 128 GB
@@ -409,7 +464,7 @@ const Life = () => {
               <img
                 src={img15}
                 alt=""
-                onClick={() => NavigationHandler('/single')}
+                onClick={() => NavigationHandler("/single")}
                 style={{ paddingLeft: "100px", paddingRight: "100px" }}
               />
               <p>
@@ -420,7 +475,11 @@ const Life = () => {
               </p>
             </div>
             <div className="images">
-              <img src={img16} alt="" onClick={() => NavigationHandler('/single')} />
+              <img
+                src={img16}
+                alt=""
+                onClick={() => NavigationHandler("/single")}
+              />
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality <br />
                 Headset — 128 GB
@@ -434,7 +493,10 @@ const Life = () => {
 
       <div className="pro" style={{ marginTop: "8%" }}>
         <h1>INTERNATIONAL BEST SELLERS</h1>
-        <button onClick={() => NavigationHandler('/allProduct')}> View all</button>
+        <button onClick={() => NavigationHandler("/allProduct")}>
+          {" "}
+          View all
+        </button>
       </div>
 
       <div className="product">
@@ -443,7 +505,11 @@ const Life = () => {
           style={{ width: "380px", paddingTop: "50px" }}
         >
           <Card.Body>
-            <img src={img17} alt="" onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img17}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -461,7 +527,11 @@ const Life = () => {
           style={{ width: "350px", paddingTop: "50px" }}
         >
           <Card.Body>
-            <img src={img18} alt=""  onClick={() => NavigationHandler('/single')}/>
+            <img
+              src={img18}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -478,7 +548,11 @@ const Life = () => {
           style={{ width: "350px", paddingTop: "50px" }}
         >
           <Card.Body>
-            <img src={img19} alt="" onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img19}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -494,7 +568,11 @@ const Life = () => {
           style={{ width: "350px", paddingTop: "100px" }}
         >
           <Card.Body>
-            <img src={img20} alt="" onClick={() => NavigationHandler('/single')} />
+            <img
+              src={img20}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -534,7 +612,9 @@ const Life = () => {
         </p>
       </div>
 
-      <h1 style={{ textAlign: "center" ,fontFamily : 'Monument' }}>RECENTLY VIEWED</h1>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
+        RECENTLY VIEWED
+      </h1>
 
       <div className="many">
         <div>
@@ -564,7 +644,9 @@ const Life = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center" ,fontFamily : 'Monument'}}>TALK TO HUMAN</h1>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
+        TALK TO HUMAN
+      </h1>
       <div className="human">
         <div>
           <img src={phone} alt="" />

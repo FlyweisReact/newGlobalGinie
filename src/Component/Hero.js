@@ -3,7 +3,7 @@
 import React from "react";
 import Mask from "../Images/Mask Group 1 1.png";
 import { Carousel } from "react-responsive-carousel";
-import img from '../Images/Get Me This 1.png'
+import img from '../Images/Homepage Desktop 01.jpg'
 
 const images = [
   {

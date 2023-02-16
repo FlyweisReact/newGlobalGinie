@@ -146,7 +146,7 @@ const TermsCondition = () => {
         </p>
       </div>
 
-      <div className="returnRefundPdiv2" >
+      <div className="returnRefundPdiv2">
         <h3>9. Governing Law </h3>
         <p>
           Any claim relating to desertcart’s Trading website outside GCC will be
@@ -159,7 +159,7 @@ const TermsCondition = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

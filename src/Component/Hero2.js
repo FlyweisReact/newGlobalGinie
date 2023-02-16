@@ -1,7 +1,7 @@
 import React from "react";
-import Mask from "../Assets/Mask Group 1.png";
+import Mask from "../Images/Baby&Mom  Desktop.jpg";
 import { Carousel } from "react-responsive-carousel";
-import Image from "../Assets/Baby.png";
+import Image from "../Images/Baby&Mom  Desktop 01.jpg";
 
 const images = [
   {
@@ -19,26 +19,6 @@ const Hero2 = () => {
     className="ImageCarousel"
     showThumbs={false}
     infiniteLoop
-    // renderArrowPrev={(clickHandler, hasNext) => {
-    //   return (
-    //     hasNext && (
-    //       <i
-    //         className="fa-solid fa-arrow-left arrow"
-    //         onClick={clickHandler}
-    //       ></i>
-    //     )
-    //   );
-    // }}
-    // renderArrowNext={(clickHandler, hasNext) => {
-    //   return (
-    //     hasNext && (
-    //       <i
-    //         className="fa-solid fa-arrow-right arrow"
-    //         onClick={clickHandler}
-    //       ></i>
-    //     )
-    //   );
-    // }}
   >
     {images.map((i, index) => (
       <div key={index}>

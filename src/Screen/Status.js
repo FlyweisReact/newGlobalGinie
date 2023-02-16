@@ -3,7 +3,6 @@
 import React from "react";
 import img from "../Assets/04.png";
 
-
 import Oil from "../Assets/Oil.png";
 import Hair from "../Assets/New 10.png";
 import some from "../Assets/Chicco Baby Moments Soft Cleansing Baby Wipes, Ideal for Nappy, Face and Hand, Dermatologically Tested, Paraben Free, Fliptop Pack.png";
@@ -53,7 +52,7 @@ const Status = () => {
               <h2
                 style={{
                   color: "#43a047",
-                  fontFamily: "Monument",
+                  fontFamily: "MonumentMine",
                   fontWeight: "bolder",
                 }}
               >
@@ -172,12 +171,10 @@ const Status = () => {
         </div>
       </div>
 
-
-
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "Monument",
+          fontFamily: "MonumentMine",
           marginTop: "15%",
         }}
       >
@@ -212,7 +209,7 @@ const Status = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">
@@ -233,7 +230,6 @@ const Status = () => {
         </div>
       </div>
       <Footer />
-
     </>
   );
 };

@@ -16,14 +16,17 @@ import Toy from "../Assets/Webby Soft Animal Plush Elephant Toy 20cm, Grey.png";
 import Chair from "../Assets/StarAndDaisy Galaxy Star Multifunction 6 in 1 Baby High Chair  Foldable Feeding Chair Strong Dining Chair for Baby with Height Adjustment.png";
 import Chair2 from "../Assets/71aMFEP0GjL._SL1500_.png";
 import Reviews from "../Component/Reviews";
+
 import Kid from "../Assets/Banner.png";
 import img1 from "../Assets/Game.png";
 import img3 from "../Assets/1.png";
 import img4 from "../Assets/3.png";
+
 import img5 from "../Assets/5.png";
 import img6 from "../Assets/7.png";
 import img7 from "../Assets/4.png";
 import img8 from "../Assets/6.png";
+
 import Oil from "../Assets/Oil.png";
 import Hair from "../Assets/New 10.png";
 import some from "../Assets/Chicco Baby Moments Soft Cleansing Baby Wipes, Ideal for Nappy, Face and Hand, Dermatologically Tested, Paraben Free, Fliptop Pack.png";
@@ -31,12 +34,15 @@ import clock from "../Assets/clock.png";
 import Apple from "../Assets/Apple Watch Series 7 (GPS, 45mm) Midnight.png";
 import adi from "../Assets/adidas Stadium 750 ML (26oz) Plastic Water Bottle.png";
 import gel from "../Assets/618-39BSrgL._SL1500_.png";
-import newImg12 from "../Images/GET ME THIS Desktop.jpg";
+
+import Give from "../Assets/Get Me This.png";
+
 import Whatsapp from "../Assets/Whatsapp icon.png";
 import phone from "../Assets/Phone call.png";
 import Mail from "../Assets/Mail Icon.png";
 import Footer from "../Component/Footer";
 import { useNavigate } from "react-router-dom";
+import ResBigCarousel from "../Component/ResBigCarousel";
 
 const Baby = () => {
   const navigate = useNavigate();
@@ -357,6 +363,96 @@ const Baby = () => {
         </div>
       </div>
 
+      {/* <div className="pro" style={{ marginTop: "8%" }}>
+        <h1>INTERNATIONAL BEST SELLERS</h1>
+        <button onClick={() => allProductNavigation()}>View all</button>
+      </div>
+
+      <div className="product">
+        <Card className="ProductCard">
+          <Card.Body>
+            <img src={img5} alt=""  onClick={() => NavigationHandler('/single')} />
+          </Card.Body>
+        </Card>
+        <div className="desc2">
+          <p>
+            Meta Quest 2 — Advanced All-In-One Virtual Reality
+            <br />
+            Headset — 128 GB
+            <br />
+            <soan>₹31,970.00</soan>
+          </p>{" "}
+        </div>
+
+        <Card className="ProductCard">
+          <Card.Body>
+            <img src={img6} alt=""  onClick={() => NavigationHandler('/single')} />
+          </Card.Body>
+        </Card>
+        <div className="desc2">
+          <p>
+            Corsair Vengeance RGB PRO 16GB (2x8GB) DDR4
+            <br />
+            3200MHz C16 LED Desktop Memory - Black
+            <br />
+            <soan>₹31,970.00</soan>
+          </p>{" "}
+        </div>
+        <Card className="ProductCard">
+          <Card.Body>
+            <img src={img7} alt=""   onClick={() => NavigationHandler('/single')} />
+          </Card.Body>
+        </Card>
+        <div className="desc2">
+          <p>
+            Apple Watch Series 8 GPS + Cellular 45mm Midnight
+            <br />
+            Aluminium Case with Midnight Sport Band - M/L <br />
+            <soan>₹41,970.00</soan>
+          </p>{" "}
+        </div>
+        <Card className="ProductCard">
+          <Card.Body>
+            <img src={img8} alt=""   onClick={() => NavigationHandler('/single')}/>
+          </Card.Body>
+        </Card>
+        <div className="desc2">
+          <p>
+            Meta Quest 2 — Advanced All-In-One Virtual Reality
+            <br />
+            Headset — 128 GB <br />
+            <soan>₹31,970.00</soan>
+          </p>
+        </div>
+      </div>
+      <div className="Desc">
+        <p>
+          Meta Quest 2 — Advanced All-In-One Virtual Reality
+          <br />
+          Headset — 128 GB
+          <br />
+          <soan>₹31,970.00</soan>
+        </p>{" "}
+        <p style={{ marginLeft: "2rem" }}>
+          Corsair Vengeance RGB PRO 16GB (2x8GB) DDR4 <br />
+          3200MHz C16 LED Desktop Memory - Black
+          <br />
+          <soan>₹31,970.00</soan>
+        </p>{" "}
+        <p style={{ marginLeft: "2rem" }}>
+          Apple Watch Series 8 GPS + Cellular 45mm Midnight
+          <br />
+          Aluminium Case with Midnight Sport Band - M/L <br />
+          <soan>₹41,970.00</soan>
+        </p>{" "}
+        <p style={{ marginLeft: "2rem" }}>
+          Meta Quest 2 — Advanced All-In-One Virtual Reality
+          <br />
+          Headset — 128 GB <br />
+          <soan>₹31,970.00</soan>
+        </p>
+      </div> */}
+
       <h1 style={{ textAlign: "center", fontFamily: " MonumentMine" }}>
         RECENTLY VIEWED
       </h1>
@@ -385,9 +481,18 @@ const Baby = () => {
         </div>
       </div>
 
-      <div className="BanImage">
-        <img src={newImg12} alt="" />
-      </div>
+      {/* <div className="Give">
+        <img src={Give} alt="" />
+      </div> */}
+      <img
+        src={Give}
+        alt=""
+        style={{
+          width: "90%",
+          marginLeft: "5%",
+          marginBottom: "3%",
+        }}
+      />
 
       <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN

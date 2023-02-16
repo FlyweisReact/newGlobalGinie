@@ -20,7 +20,7 @@ const NavBar = () => {
 
   const [logout, setLogout] = useState(false);
   const [phoneNum, setPhone] = useState(false);
-  const [email , setEmail] = useState(false)
+  const [email, setEmail] = useState(false);
 
   const navigate = useNavigate();
 
@@ -64,8 +64,20 @@ const NavBar = () => {
             ""
           )}
 
-          {phoneNum ? <h4 style={{textAlign : 'center' , fontFamily : 'Futura'}}>Phone Number :-  1245369870 </h4> : ""}
-          {email ? <h4 style={{textAlign : 'center' ,fontFamily : 'Futura'}}>Email Address :-  Email@gmail.com </h4> : ""}
+          {phoneNum ? (
+            <h4 style={{ textAlign: "center", fontFamily: "Futura" }}>
+              Phone Number :- 1245369870{" "}
+            </h4>
+          ) : (
+            ""
+          )}
+          {email ? (
+            <h4 style={{ textAlign: "center", fontFamily: "Futura" }}>
+              Email Address :- Email@gmail.com{" "}
+            </h4>
+          ) : (
+            ""
+          )}
         </Modal.Body>
         <Modal.Footer></Modal.Footer>
       </Modal>
@@ -108,7 +120,9 @@ const NavBar = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div className="OFC">
-            <p style={{ marginLeft: "4%" }}>SHOP BY CATEGORY</p>
+            <p style={{ marginLeft: "4%", fontFamily: "MonumentMineMine" }}>
+              SHOP BY CATEGORY
+            </p>
             <ul style={{ marginTop: "5%" }}>
               <li onClick={() => NavigationHandler("/second")}>
                 <p>BABY & MOM</p> <img src={arrow2} alt="" />{" "}
@@ -139,7 +153,15 @@ const NavBar = () => {
               </li>
             </ul>
 
-            <p style={{ marginTop: "9%", marginLeft: "4%" }}>MY ACCOUNT</p>
+            <p
+              style={{
+                marginTop: "9%",
+                marginLeft: "4%",
+                fontFamily: "MonumentMineMine",
+              }}
+            >
+              MY ACCOUNT
+            </p>
             <ul style={{ marginTop: "5%" }}>
               <li onClick={() => NavigationHandler("/track")}>
                 <p>Tracking</p> <img src={arrow2} alt="" />{" "}
@@ -166,7 +188,9 @@ const NavBar = () => {
                 <p> Customer Service </p> <img src={arrow2} alt="" />{" "}
               </li>
 
-              <p className="head">DEDICATED SUPPORT</p>
+              <p className="head" style={{ fontFamily: "MonumentMineMine" }}>
+                DEDICATED SUPPORT
+              </p>
               <li>
                 <p>Talk to Human</p> <img src={arrow2} alt="" />{" "}
               </li>
@@ -176,7 +200,7 @@ const NavBar = () => {
                   style={{ cursor: "pointer" }}
                   onClick={() => {
                     setPhone(true);
-                    setEmail(false)
+                    setEmail(false);
                     setModalShow(true);
                     handleClose();
                     setLogout(false);
@@ -186,11 +210,11 @@ const NavBar = () => {
                   <p>PHONE</p>
                 </div>
                 <div style={{ borderRight: "1px solid black" }}></div>
-                <div style={{ marginTop: "20px" ,cursor: "pointer" }}
-              
+                <div
+                  style={{ marginTop: "20px", cursor: "pointer" }}
                   onClick={() => {
                     setPhone(false);
-                    setEmail(true)
+                    setEmail(true);
                     setModalShow(true);
                     handleClose();
                     setLogout(false);
@@ -224,16 +248,16 @@ const NavBar = () => {
               <li style={{ marginTop: "10%" }}>
                 <p
                   style={{
-                    fontFamily: "Monument",
+                    fontFamily: "MonumentMine",
                     paddingTop: "30px",
                     paddingLeft: "40px",
                   }}
                   onClick={() => {
                     setLogout(true);
-                    setPhone(false)
+                    setPhone(false);
                     setModalShow(true);
                     handleClose();
-                    setEmail(false)
+                    setEmail(false);
                   }}
                 >
                   SIGN OUT
@@ -244,8 +268,6 @@ const NavBar = () => {
           </div>
         </Offcanvas.Body>
       </Offcanvas>
-
-    
     </>
   );
 };

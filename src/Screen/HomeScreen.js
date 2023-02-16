@@ -19,12 +19,11 @@ import newImg from "../Images/Canon_EF_70-200mm_f2.8L_IS_III_USM_Lens_for_Canon-
 import newImg2 from "../Images/61tE7IcuLmL._SL1500_-removebg-preview.png";
 import newImg4 from "../Images/71LKSq7g51L._AC_SL1500_-removebg-preview.png";
 import newImg6 from "../Images/Corsair_Vengeance_RGB_Pro_32GB__2x16GB__DDR4_2933-removebg-preview.png";
-import newImg7 from "../Images/photographer-man-taking-photos-village 1.png";
 import newImg8 from "../Images/bag.png";
 import newImg9 from "../Images/camera.png";
 import newImg10 from "../Images/controller.png";
 import newImg11 from "../Images/headphone.png";
-import newImg12 from "../Images/Get Me This 1.png";
+import newImg12 from "../Images/GET ME THIS Desktop.jpg";
 
 import newImg13 from "../Images/Best Deals gadgets & Electronics.jpg";
 
@@ -76,7 +75,7 @@ const HomeScreen = () => {
             <br />
             Headset — 128 GB
             <br />
-            <soan>₹31,970.00</soan>
+            <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
           </p>
         </div>
         <div className="item" onClick={() => NavigationHandler("/single")}>
@@ -88,7 +87,7 @@ const HomeScreen = () => {
             <br />
             Headset — 128 GB
             <br />
-            <soan>₹31,970.00</soan>
+            <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
           </p>
         </div>
         <div className="item" onClick={() => NavigationHandler("/single")}>
@@ -100,7 +99,7 @@ const HomeScreen = () => {
             <br />
             Headset — 128 GB
             <br />
-            <soan>₹31,970.00</soan>
+            <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
           </p>
         </div>
         <div className="item" onClick={() => NavigationHandler("/single")}>
@@ -112,7 +111,7 @@ const HomeScreen = () => {
             <br />
             Headset — 128 GB
             <br />
-            <soan>₹31,970.00</soan>
+            <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
           </p>
         </div>
       </div>
@@ -121,7 +120,7 @@ const HomeScreen = () => {
         style={{
           textAlign: "center",
           fontSize: "2.2rem",
-          fontFamily: "MonumentMine",
+          fontFamily: "MonumentMineMine",
         }}
       >
         CUSTOMER REVIEWS
@@ -145,7 +144,7 @@ const HomeScreen = () => {
               </div>
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality Headset — 128
-                GB ₹31,970.00
+                GB <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
               </p>
             </div>
 
@@ -156,7 +155,7 @@ const HomeScreen = () => {
 
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality Headset — 128
-                GB ₹31,970.00
+                GB <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
               </p>
             </div>
           </div>
@@ -167,7 +166,7 @@ const HomeScreen = () => {
               </div>
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality Headset — 128
-                GB ₹31,970.00
+                GB <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
               </p>
             </div>
 
@@ -177,7 +176,7 @@ const HomeScreen = () => {
               </div>
               <p>
                 Meta Quest 2 — Advanced All-In-One Virtual Reality Headset — 128
-                GB ₹31,970.00
+                GB <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
               </p>
             </div>
           </div>
@@ -199,7 +198,7 @@ const HomeScreen = () => {
             <br />
             Headset — 128 GB
             <br />
-            <soan>₹31,970.00</soan>
+            <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
           </p>
         </div>
         <div className="item">
@@ -211,7 +210,7 @@ const HomeScreen = () => {
             <br />
             Headset — 128 GB
             <br />
-            <soan>₹31,970.00</soan>
+            <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
           </p>
         </div>
         <div className="item">
@@ -223,7 +222,7 @@ const HomeScreen = () => {
             <br />
             Headset — 128 GB
             <br />
-            <soan>₹31,970.00</soan>
+            <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
           </p>
         </div>
         <div className="item">
@@ -235,13 +234,13 @@ const HomeScreen = () => {
             <br />
             Headset — 128 GB
             <br />
-            <soan>₹31,970.00</soan>
+            <span style={{ fontWeight: "bold" }}>₹31,970.00</span>
           </p>
         </div>
       </div>
 
       <h1
-        style={{ textAlign: "center", fontFamily: "MonumentMine" }}
+        style={{ textAlign: "center", fontFamily: "MonumentMineMine" }}
         className="forRes"
       >
         RECENTLY VIEWED
@@ -276,7 +275,7 @@ const HomeScreen = () => {
       </div>
 
       <h1
-        style={{ textAlign: "center", fontFamily: "MonumentMine" }}
+        style={{ textAlign: "center", fontFamily: "MonumentMineMine" }}
         className="forRes"
       >
         TALK TO HUMAN

@@ -19,8 +19,8 @@ import gel from "../Assets/618-39BSrgL._SL1500_.png";
 import { useNavigate } from "react-router-dom";
 
 const CustomerService = () => {
-  const navigate = useNavigate()
-    return (
+  const navigate = useNavigate();
+  return (
     <>
       <div className="customerSer">
         <p>Welcome to</p>
@@ -28,7 +28,9 @@ const CustomerService = () => {
       </div>
 
       <div className="customerSerHead">
-        <p onClick={() => navigate('/allOrders')} style={{cursor : 'pointer'}}>Manage your Orders</p>
+        <p onClick={() => navigate("/allOrders")} style={{ cursor: "pointer" }}>
+          Manage your Orders
+        </p>
         <img src={img} alt="" />
       </div>
 
@@ -49,7 +51,14 @@ const CustomerService = () => {
           </p>
 
           <h5
-            style={{ marginLeft: "5%", fontFamily: "Nexa", fontSize: "1.9rem" , marginTop : '10%' , color : '#057436' , fontWeight : 'bold' }}
+            style={{
+              marginLeft: "5%",
+              fontFamily: "Nexa",
+              fontSize: "1.9rem",
+              marginTop: "10%",
+              color: "#057436",
+              fontWeight: "bold",
+            }}
           >
             Delivered 11 October
           </h5>
@@ -59,7 +68,7 @@ const CustomerService = () => {
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "Monument",
+          fontFamily: "MonumentMine",
           marginTop: "15%",
         }}
       >
@@ -94,7 +103,7 @@ const CustomerService = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

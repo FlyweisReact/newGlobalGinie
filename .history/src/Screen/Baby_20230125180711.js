@@ -16,6 +16,7 @@ import Toy from "../Assets/Webby Soft Animal Plush Elephant Toy 20cm, Grey.png";
 import Chair from "../Assets/StarAndDaisy Galaxy Star Multifunction 6 in 1 Baby High Chair  Foldable Feeding Chair Strong Dining Chair for Baby with Height Adjustment.png";
 import Chair2 from "../Assets/71aMFEP0GjL._SL1500_.png";
 import Reviews from "../Component/Reviews";
+
 import Kid from "../Assets/Banner.png";
 import img1 from "../Assets/Game.png";
 import img3 from "../Assets/1.png";

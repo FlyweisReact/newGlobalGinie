@@ -26,16 +26,16 @@ import img1 from "../Assets/71I8bdpX2UL._AC_SL1500_.png";
 import img2 from "../Assets/71cWQ3Yr8NL._AC_SL1500_.png";
 import img3 from "../Assets/818c8Lnb8GL._AC_SL1500_.png";
 import img4 from "../Assets/719xFB+eo6L._SL1500_.png";
-import img5 from '../Assets/Cetaphil Baby Daily Moisturizing Lotion 400ml with Organic Calendula for Face & Body, Moisturizer for Kids.png'
+import img5 from "../Assets/Cetaphil Baby Daily Moisturizing Lotion 400ml with Organic Calendula for Face & Body, Moisturizer for Kids.png";
 
-import img6 from '../Assets/Chicco Baby Moments Soft Cleansing Baby Wipes, Ideal for Nappy, Face and Hand, Dermatologically Tested, Paraben Free, Fliptop Pack.png'
-import img7 from '../Assets/clock.png'
-import img8 from '../Assets/Comotomo 8 Ounce Baby Bottle, Pack of 2 (Green).png'
-import img9 from '../Assets/Chicco Natural Sensation Face Cream, Mother’s Womb Like Care, 0m+ (50 ml).png'
-import im10 from '../Assets/10.png'
+import img6 from "../Assets/Chicco Baby Moments Soft Cleansing Baby Wipes, Ideal for Nappy, Face and Hand, Dermatologically Tested, Paraben Free, Fliptop Pack.png";
+import img7 from "../Assets/clock.png";
+import img8 from "../Assets/Comotomo 8 Ounce Baby Bottle, Pack of 2 (Green).png";
+import img9 from "../Assets/Chicco Natural Sensation Face Cream, Mother’s Womb Like Care, 0m+ (50 ml).png";
+import im10 from "../Assets/10.png";
 
-import img11 from '../Assets/12.png'
-import img12 from '../Assets/11.png'
+import img11 from "../Assets/12.png";
+import img12 from "../Assets/11.png";
 
 const AllProduct = () => {
   React.useEffect(() => {
@@ -183,11 +183,7 @@ const AllProduct = () => {
         </div>
         <Card className="ProductCard" style={{ width: "370px" }}>
           <Card.Body>
-            <img
-              src={img4}
-              alt=""
-              style={{ marginTop: "5%",  }}
-            />
+            <img src={img4} alt="" style={{ marginTop: "5%" }} />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -268,7 +264,7 @@ const AllProduct = () => {
         </div>
         <Card className="ProductCard">
           <Card.Body>
-            <img src={img7} alt="" style={{marginTop : '10%'}} />
+            <img src={img7} alt="" style={{ marginTop: "10%" }} />
           </Card.Body>
         </Card>
         <div className="desc2">
@@ -331,7 +327,7 @@ const AllProduct = () => {
         }}
       />
       <div className="product" style={{ marginTop: "10%" }}>
-        <Card className="ProductCard" style={{width : '340px'}}>
+        <Card className="ProductCard" style={{ width: "340px" }}>
           <Card.Body>
             <img src={img9} alt="" />
           </Card.Body>
@@ -360,7 +356,7 @@ const AllProduct = () => {
             <soan>₹31,970.00</soan>
           </p>{" "}
         </div>
-        <Card className="ProductCard" style={{width : '350px'}}>
+        <Card className="ProductCard" style={{ width: "350px" }}>
           <Card.Body>
             <img src={img11} alt="" />
           </Card.Body>
@@ -373,7 +369,7 @@ const AllProduct = () => {
             <soan>₹41,970.00</soan>
           </p>{" "}
         </div>
-        <Card className="ProductCard" style={{width : '360px'}}>
+        <Card className="ProductCard" style={{ width: "360px" }}>
           <Card.Body>
             <img src={img12} alt="" />
           </Card.Body>
@@ -420,7 +416,7 @@ const AllProduct = () => {
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "Monument",
+          fontFamily: "MonumentMine",
           marginTop: "15%",
         }}
       >
@@ -455,7 +451,7 @@ const AllProduct = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

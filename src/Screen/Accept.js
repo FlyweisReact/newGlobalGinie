@@ -19,7 +19,7 @@ import gel from "../Assets/618-39BSrgL._SL1500_.png";
 import { useNavigate } from "react-router-dom";
 
 const Accept = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <>
       <div className="MyOrderHead">
@@ -57,14 +57,16 @@ const Accept = () => {
         </p>
       </div>
 
-      <button className="shoppingTrack" onClick={() => navigate('/')}>CONTINUE SHOPPING </button>
+      <button className="shoppingTrack" onClick={() => navigate("/")}>
+        CONTINUE SHOPPING{" "}
+      </button>
 
       {/* -------------------------------------------------------------- */}
 
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "Monument",
+          fontFamily: "MonumentMine",
           marginTop: "15%",
         }}
       >
@@ -99,7 +101,7 @@ const Accept = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

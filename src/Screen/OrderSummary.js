@@ -161,61 +161,59 @@ const OrderSummary = () => {
             </div>
           </div>
 
-          <hr  style={{border : '1px solid black'}}/>
+          <hr style={{ border: "1px solid black" }} />
           <button>PROCEED TO CHECKOUT</button>
         </div>
       </div>
 
-
-
       <div className="OrderSummaryDropDown">
-          <div className="upper">
-            <h5>Subtotal (1)</h5>
-            <h5 className="down">₹ 3,115.00</h5>
-          </div>
-
-          <div className="upper">
-            <div>
-              <h5>Shipping</h5>
-              <p>USA to INDIA</p>
-            </div>
-            <div className="down">
-              <h5>Free</h5>
-              <p>-150</p>
-            </div>
-          </div>
-
-          <div className="upper">
-            <div>
-              <h5>Discount</h5>
-              <p>FIRSTWISH- 10%</p>
-            </div>
-            <div>
-              <h5>-180</h5>
-            </div>
-          </div>
-
-          <div className="upper">
-            <div>
-              <h5>TOTAL</h5>
-            </div>
-            <div>
-              <h5 style={{textAlign : 'right'}}>₹2,765.00</h5>
-              <span style={{ fontSize: "0.8rem" }}>
-                [ ALL TAXES & IMPORT DUTY INCLUDED ]
-              </span>
-            </div>
-          </div>
-
-          <hr  style={{border : '1px solid black'}}/>
-          <button>PROCEED TO CHECKOUT</button>
+        <div className="upper">
+          <h5>Subtotal (1)</h5>
+          <h5 className="down">₹ 3,115.00</h5>
         </div>
+
+        <div className="upper">
+          <div>
+            <h5>Shipping</h5>
+            <p>USA to INDIA</p>
+          </div>
+          <div className="down">
+            <h5>Free</h5>
+            <p>-150</p>
+          </div>
+        </div>
+
+        <div className="upper">
+          <div>
+            <h5>Discount</h5>
+            <p>FIRSTWISH- 10%</p>
+          </div>
+          <div>
+            <h5>-180</h5>
+          </div>
+        </div>
+
+        <div className="upper">
+          <div>
+            <h5>TOTAL</h5>
+          </div>
+          <div>
+            <h5 style={{ textAlign: "right" }}>₹2,765.00</h5>
+            <span style={{ fontSize: "0.8rem" }}>
+              [ ALL TAXES & IMPORT DUTY INCLUDED ]
+            </span>
+          </div>
+        </div>
+
+        <hr style={{ border: "1px solid black" }} />
+        <button>PROCEED TO CHECKOUT</button>
+      </div>
 
       <div className="Give">
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

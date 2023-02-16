@@ -248,21 +248,19 @@ const Shoppingbag = () => {
         <button>PROCEED TO CHECKOUT</button>
       </div>
 
-
-    <div className="ReturnRefund" >
+      <div className="ReturnRefund">
         <h2>GIFT CARDS, VOUCHER & PROMOTIONAL CODES</h2>
         <div>
-            <input type={'text'} /> <button >Apply</button>
+          <input type={"text"} /> <button>Apply</button>
         </div>
         <h2>RETURNS & REFUNDS</h2>
-    </div>
-
+      </div>
 
       <div className="Give">
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

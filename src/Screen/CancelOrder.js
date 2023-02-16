@@ -28,13 +28,11 @@ import Footer from "../Component/Footer";
 
 import { useNavigate } from "react-router-dom";
 const CancelOrder = () => {
-
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   function NavigationHandler(data) {
-      navigate(data)
+    navigate(data);
   }
-
 
   return (
     <>
@@ -44,10 +42,10 @@ const CancelOrder = () => {
       </div>
 
       <div className="MyOrderFour">
-        <h3  onClick={() => NavigationHandler('/allOrders')} >All Orders</h3>
-        <h3 onClick={() => NavigationHandler('/inTransit')}>InTransit</h3>
+        <h3 onClick={() => NavigationHandler("/allOrders")}>All Orders</h3>
+        <h3 onClick={() => NavigationHandler("/inTransit")}>InTransit</h3>
         <h3 className="special">Cancelled</h3>
-        <h3 onClick={() => NavigationHandler('/orderSum')} >Buy it Again</h3>
+        <h3 onClick={() => NavigationHandler("/orderSum")}>Buy it Again</h3>
       </div>
 
       <div className="MyOrderPlaced">
@@ -324,7 +322,7 @@ const CancelOrder = () => {
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "Monument",
+          fontFamily: "MonumentMine",
           marginTop: "15%",
         }}
       >
@@ -359,7 +357,7 @@ const CancelOrder = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

@@ -36,7 +36,7 @@ const YourAddress = () => {
             textAlign: "center",
             fontSize: "2rem",
             fontWeight: "bolder",
-            fontFamily: "Monument",
+            fontFamily: "MonumentMine",
             color: "grey",
           }}
         >
@@ -119,7 +119,7 @@ const YourAddress = () => {
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "Monument",
+          fontFamily: "MonumentMine",
           marginTop: "15%",
         }}
       >
@@ -154,7 +154,7 @@ const YourAddress = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

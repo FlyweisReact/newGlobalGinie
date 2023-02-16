@@ -25,13 +25,11 @@ import Footer from "../Component/Footer";
 
 import { useNavigate } from "react-router-dom";
 
-
 const OrderSum = () => {
-
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   function NavigationHandler(data) {
-      navigate(data)
+    navigate(data);
   }
 
   return (
@@ -42,9 +40,9 @@ const OrderSum = () => {
       </div>
 
       <div className="MyOrderFour">
-        <h3  onClick={() => NavigationHandler('/allOrders')} >All Orders</h3>
-        <h3 onClick={() => NavigationHandler('/inTransit')}>InTransit</h3>
-        <h3  onClick={() => NavigationHandler('/orderCancel')} >Canceled</h3>
+        <h3 onClick={() => NavigationHandler("/allOrders")}>All Orders</h3>
+        <h3 onClick={() => NavigationHandler("/inTransit")}>InTransit</h3>
+        <h3 onClick={() => NavigationHandler("/orderCancel")}>Canceled</h3>
         <h3 className="special">Buy it Again</h3>
       </div>
 
@@ -309,8 +307,13 @@ const OrderSum = () => {
 
       {/* -------------------------------------------------------------- */}
 
-
-      <h1 style={{ textAlign: "center", fontFamily: "Monument"  , marginTop : '15%'}}>
+      <h1
+        style={{
+          textAlign: "center",
+          fontFamily: "MonumentMine",
+          marginTop: "15%",
+        }}
+      >
         RECENTLY VIEWED
       </h1>
 
@@ -342,7 +345,7 @@ const OrderSum = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

@@ -27,10 +27,10 @@ import Mail from "../Assets/Mail Icon.png";
 import Footer from "../Component/Footer";
 import { useNavigate } from "react-router-dom";
 const Transit = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   function NavigationHandler(data) {
-      navigate(data)
+    navigate(data);
   }
   return (
     <>
@@ -40,10 +40,10 @@ const Transit = () => {
       </div>
 
       <div className="MyOrderFour">
-        <h3  onClick={() => NavigationHandler('/allOrders')}>All Orders</h3>
+        <h3 onClick={() => NavigationHandler("/allOrders")}>All Orders</h3>
         <h3 className="special">InTransit</h3>
-        <h3 onClick={() => NavigationHandler('/orderCancel')} >Cancelled</h3>
-        <h3  onClick={() => NavigationHandler('/orderSum')}>Buy it Again</h3>
+        <h3 onClick={() => NavigationHandler("/orderCancel")}>Cancelled</h3>
+        <h3 onClick={() => NavigationHandler("/orderSum")}>Buy it Again</h3>
       </div>
 
       <div className="MyOrderPlaced">
@@ -338,7 +338,7 @@ const Transit = () => {
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "Monument",
+          fontFamily: "MonumentMine",
           marginTop: "15%",
         }}
       >
@@ -373,7 +373,7 @@ const Transit = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

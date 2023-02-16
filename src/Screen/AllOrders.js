@@ -29,10 +29,10 @@ import X from "../Assets/X.png";
 
 import { useNavigate } from "react-router-dom";
 const AllOrders = () => {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   function NavigationHandler(data) {
-      navigate(data)
+    navigate(data);
   }
   return (
     <>
@@ -43,9 +43,9 @@ const AllOrders = () => {
 
       <div className="MyOrderFour">
         <h3 className="special">All Orders</h3>
-        <h3 onClick={() => NavigationHandler('/inTransit')}>InTransit</h3>
-        <h3  onClick={() => NavigationHandler('/orderCancel')}>Cancelled</h3>
-        <h3 onClick={() => NavigationHandler('/orderSum')}>Buy it Again</h3>
+        <h3 onClick={() => NavigationHandler("/inTransit")}>InTransit</h3>
+        <h3 onClick={() => NavigationHandler("/orderCancel")}>Cancelled</h3>
+        <h3 onClick={() => NavigationHandler("/orderSum")}>Buy it Again</h3>
       </div>
 
       <div className="MyOrderPlaced">
@@ -108,8 +108,19 @@ const AllOrders = () => {
           </p>
         </div>
         <div className="four">
-          <button onClick={() => NavigationHandler('/track')} > TRACK PACKAGE </button> <br />
-          <button  onClick={() => NavigationHandler('/return')}  className="btn-light"> RETURN OR REFUND </button> <br />
+          <button onClick={() => NavigationHandler("/track")}>
+            {" "}
+            TRACK PACKAGE{" "}
+          </button>{" "}
+          <br />
+          <button
+            onClick={() => NavigationHandler("/return")}
+            className="btn-light"
+          >
+            {" "}
+            RETURN OR REFUND{" "}
+          </button>{" "}
+          <br />
           <button className="btn-light"> LEAVE A FEEDBACK </button>
         </div>
       </div>
@@ -150,9 +161,19 @@ const AllOrders = () => {
           </p>
         </div>
         <div className="four">
-          <button   onClick={() => NavigationHandler('/orderSum')} > BUY IT AGAIN</button>
+          <button onClick={() => NavigationHandler("/orderSum")}>
+            {" "}
+            BUY IT AGAIN
+          </button>
           <br />
-          <button  onClick={() => NavigationHandler('/return')} className="btn-light"> RETURN OR REFUND </button> <br />
+          <button
+            onClick={() => NavigationHandler("/return")}
+            className="btn-light"
+          >
+            {" "}
+            RETURN OR REFUND{" "}
+          </button>{" "}
+          <br />
           <button className="btn-light"> LEAVE A FEEDBACK </button>
         </div>
       </div>
@@ -192,9 +213,19 @@ const AllOrders = () => {
           </p>
         </div>
         <div className="four">
-          <button onClick={() => NavigationHandler('/orderSum')}> BUY IT AGAIN</button>
+          <button onClick={() => NavigationHandler("/orderSum")}>
+            {" "}
+            BUY IT AGAIN
+          </button>
           <br />
-          <button  onClick={() => NavigationHandler('/return')} className="btn-light"> RETURN OR REFUND </button> <br />
+          <button
+            onClick={() => NavigationHandler("/return")}
+            className="btn-light"
+          >
+            {" "}
+            RETURN OR REFUND{" "}
+          </button>{" "}
+          <br />
           <button className="btn-light"> LEAVE A FEEDBACK </button>
         </div>
       </div>
@@ -353,7 +384,7 @@ const AllOrders = () => {
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "Monument",
+          fontFamily: "MonumentMine",
           marginTop: "15%",
         }}
       >
@@ -388,7 +419,7 @@ const AllOrders = () => {
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

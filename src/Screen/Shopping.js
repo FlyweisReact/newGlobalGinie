@@ -9,7 +9,6 @@ import img4 from "../Assets/Webby Soft Animal Plush Elephant Toy 20cm, Grey.png"
 
 import img5 from "../Assets/Group 171.png";
 
-
 import Give from "../Assets/Get Me This.png";
 
 import Whatsapp from "../Assets/Whatsapp icon.png";
@@ -79,25 +78,21 @@ const Shopping = () => {
       </div>
 
       <div className="shoppingImage">
-        <img src={img5} alt='' />
-       </div>
+        <img src={img5} alt="" />
+      </div>
 
+      <div className="shoppingTrackBtn">
+        <button className="shoppingTrack">TRACK YOUR ORDER </button>
+        <button className="shoppingTrack">CONTINUE SHOPPING</button>
+      </div>
 
-<div className="shoppingTrackBtn">
+      {/* -------------------------------------------------------------- */}
 
-<button className="shoppingTrack" >TRACK YOUR ORDER </button>
-       <button className="shoppingTrack" >CONTINUE SHOPPING</button>
-</div>
-
-             {/* -------------------------------------------------------------- */}
-
-
-
-      <div className="Give" style={{marginTop : '15%'}}>
+      <div className="Give" style={{ marginTop: "15%" }}>
         <img src={Give} alt="" />
       </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "Monument" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
       <div className="human">

@@ -15,7 +15,7 @@ code {
   outline: none;
 }
 @font-face {
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
   src: url(./Fonts/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
 }
 
@@ -143,7 +143,6 @@ code {
   height: auto;
   border-radius: 10px;
 }
-/* fdsfdsf */
 .two-sec .right {
   text-align: center;
   margin: auto auto;
@@ -156,7 +155,6 @@ code {
   margin-bottom: 50px;
   margin-top: 30px;
   font-size: 1.4rem;
-  font-weight: 200;
   font-family: FuturaMine;
 }
 
@@ -189,7 +187,7 @@ code {
 }
 .pro h1 {
   font-size: 3rem;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 .pro button {
   padding: 10px;
@@ -263,7 +261,7 @@ code {
 }
 .myNewOldSec .left img {
   width: 80%;
-  /* height: 100%; */
+  height: 100%;
 }
 .myNewOldSec .right {
   width: 40%;
@@ -455,17 +453,19 @@ code {
   background-image: url("./Assets/202.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
-  width: 90%;
-  margin-left: 5%;
+  height: 585px;
+  max-width: 1400px;
+  margin: auto;
   position: relative;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .Give h1 {
   padding-top: 5%;
   font-weight: 400;
   font-size: 2.2rem;
+  font-family: Monu;
 }
 .Give h2 {
   margin-top: 1%;
@@ -640,8 +640,6 @@ input[type="date"] {
   border-radius: 10px;
   padding: 10px;
 }
-
-
 
 .human h3 {
   font-family: NexaBold;
@@ -981,7 +979,7 @@ input[type="date"] {
 
 .Tog {
   font-size: 1.5rem;
-  font-family: Monument;
+  font-family: MonumentMineMine;
   margin-left: 10%;
 }
 
@@ -1053,7 +1051,7 @@ input[type="date"] {
 .ProductReviews .head {
   font-size: 1.9rem;
   margin-left: 5%;
-  font-family: Monument;
+  font-family: MonumentMineMine;
 }
 
 .CR {
@@ -1081,7 +1079,6 @@ input[type="date"] {
 }
 .OFC p {
   font-size: 2rem;
-  /* font-family: Monument; */
 }
 .OFC ul li {
   cursor: pointer;
@@ -1097,6 +1094,7 @@ input[type="date"] {
   font-family: Nexa Bold;
   font-weight: 100 !important;
   font-size: 1.6rem;
+  font-family: FuturaMine;
 }
 .OFC ul li p:hover {
   color: red;
@@ -1129,7 +1127,7 @@ input[type="date"] {
 .MyOrderHead h1 {
   margin-top: 2%;
   font-size: 3rem;
-  font-family: Monument;
+  font-family: MonumentMineMine;
   margin-left: 35%;
   font-weight: bolder;
 }
@@ -1445,7 +1443,7 @@ input[type="date"] {
   justify-content: space-between;
 }
 .shopping h1 {
-  font-family: Monument;
+  font-family: MonumentMineMine;
 }
 .shopping h2 {
   font-family: Nexa;
@@ -1685,7 +1683,7 @@ input[type="date"] {
 }
 .ReturnRefund h2 {
   margin-top: 5%;
-  font-family: Monument;
+  font-family: MonumentMineMine;
 }
 .ReturnRefund div {
   margin-top: 5%;
@@ -1696,7 +1694,7 @@ input[type="date"] {
   width: 65%;
   padding: 10px;
   border-radius: 10px;
-  font-family: Monument;
+  font-family: MonumentMineMine;
 }
 .ReturnRefund button {
   width: 10%;
@@ -1707,7 +1705,7 @@ input[type="date"] {
   color: #fff;
   font-weight: bold;
   border-radius: 10px;
-  font-family: Monument;
+  font-family: MonumentMineMine;
 }
 /* -------------------------------------------------------------------- */
 
@@ -1722,7 +1720,7 @@ input[type="date"] {
 .StatusRefund {
   margin-top: 5%;
   margin-left: 10%;
-  font-family: Monument;
+  font-family: MonumentMineMine;
   font-weight: bolder;
   margin-bottom: 2%;
 }
@@ -1765,7 +1763,7 @@ input[type="date"] {
   border-top: 1px solid black;
   color: #fff;
   text-align: center;
-  font-family: Monument;
+  font-family: MonumentMine;
 }
 .StatusRefundBox .right .boxs div {
   margin-top: 3%;
@@ -1795,7 +1793,7 @@ input[type="date"] {
   border-top: 1px solid black;
   color: #fff;
   text-align: center;
-  font-family: Monument;
+  font-family: MonumentMine;
 }
 .boxs2 h4 {
   margin-left: 10px;
@@ -1818,7 +1816,7 @@ input[type="date"] {
 .StatusRefundBox .left .second .Fir .Second {
   display: flex;
   gap: 10px;
-  font-family: Monument;
+  font-family: MonumentMine;
 }
 .StatusRefundBox .left .second .New {
   display: flex;
@@ -1834,7 +1832,7 @@ input[type="date"] {
   margin-left: 10%;
   margin-top: 10%;
   font-size: 3rem;
-  font-family: Monument;
+  font-family: MonumentMine;
   font-weight: bolder;
 }
 
@@ -1855,7 +1853,7 @@ input[type="date"] {
 
 .your-add-threeSec .mid {
   padding-left: 10px;
-  font-family: Monument;
+  font-family: MonumentMine;
 }
 .your-add-threeSec .mid span {
   font-size: 1.1rem;
@@ -1879,7 +1877,7 @@ input[type="date"] {
   margin-left: 5%;
   margin-top: 5%;
   font-size: 1.7rem;
-  font-family: Monument;
+  font-family: MonumentMine;
   font-weight: bold;
 }
 
@@ -1961,7 +1959,7 @@ input[type="date"] {
 }
 .customerSer h6 {
   margin-left: 2%;
-  font-family: Monument;
+  font-family: MonumentMine;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -1983,7 +1981,7 @@ input[type="date"] {
 .returnRefundP {
   text-align: center;
   margin-top: 8%;
-  font-family: Monument;
+  font-family: MonumentMine;
 }
 
 .returnRefundPdiv {
@@ -2143,7 +2141,7 @@ input[type="date"] {
   margin-left: 10%;
 }
 .FAQ h2 {
-  font-family: Monument;
+  font-family: MonumentMine;
 }
 .FAQ p {
   font-family: Nexa Bold;
@@ -2220,7 +2218,6 @@ input[type="date"] {
 
 /* Media Query  */
 
-
 .ModalChange div {
   text-align: center;
   border: 1px solid black;
@@ -2252,7 +2249,7 @@ input[type="date"] {
 }
 .MyOrderHead .SS p {
   font-size: 2rem;
-  font-family: Monument;
+  font-family: MonumentMine;
   color: #a8a8a8;
 }
 .MyOrderHead .SS div {
@@ -2274,7 +2271,7 @@ input[type="date"] {
   color: #fff;
   background-color: #000207;
   border-radius: 5px;
-  font-family: Monument;
+  font-family: MonumentMine;
 }
 
 #OFFC {
@@ -2295,8 +2292,6 @@ input[type="date"] {
   margin-left: 10%;
   height: 400px;
 }
-
-
 
 .resBigDealCarousel {
   display: none;
@@ -2330,28 +2325,28 @@ input[type="date"] {
   .two-sec {
     max-width: 1000px;
   }
-  .two-sec .right h1{
+  .two-sec .right h1 {
     font-size: 1.8rem;
   }
-  .two-sec .right p{
+  .two-sec .right p {
     font-size: 20px;
   }
-  .two-sec .right button{
-    font-size: 26px;  
+  .two-sec .right button {
+    font-size: 26px;
   }
   .pro {
     max-width: 1000px;
   }
-  .pro h1{
+  .pro h1 {
     font-size: 1.8rem;
   }
-  .pro button{
+  .pro button {
     font-size: 26px;
   }
   .NewProductS {
     max-width: 1000px;
   }
-  .NewProductS .item .imgeOuter{
+  .NewProductS .item .imgeOuter {
     height: 250px;
   }
   .myNewSec {
@@ -2360,16 +2355,20 @@ input[type="date"] {
   .myNewOldSec {
     max-width: 1000px;
   }
-  .myNewOldSec .left{
-    width
+  .myNewOldSec .left img {
+    width: 100%;
+    height: 100%;
+  }
+  .myNewOldSec .right .group .dives .imageDiv {
+    height: 220px;
   }
   .many {
     max-width: 1000px;
   }
-  .forRes{
+  .forRes {
     font-size: 1.8rem;
   }
-  .many div{
+  .many div {
     width: 120px;
     height: 120px;
   }
@@ -2378,12 +2377,14 @@ input[type="date"] {
   }
   .human {
     max-width: 1000px;
-  
   }
   .footer .all {
     max-width: 1000px;
   }
-  .myHr{
+  .myHr {
+    max-width: 1000px !important;
+  }
+  .child {
     max-width: 1000px !important;
   }
 }
@@ -2392,37 +2393,40 @@ input[type="date"] {
   .MainNav {
     max-width: 800px;
   }
+  .child {
+    max-width: 800px !important;
+  }
   .ImageCarousel {
     max-width: 800px;
   }
   .two-sec {
     max-width: 800px;
   }
-  .two-sec .right h1{
+  .two-sec .right h1 {
     font-size: 1.6rem;
   }
-  .two-sec .right p{
+  .two-sec .right p {
     font-size: 18px;
   }
-  .two-sec .right button{
-    font-size: 24px;  
+  .two-sec .right button {
+    font-size: 24px;
   }
   .pro {
     max-width: 800px;
   }
-  .pro h1{
+  .pro h1 {
     font-size: 1.6rem;
   }
-  .pro button{
+  .pro button {
     font-size: 24px;
   }
   .NewProductS {
     max-width: 800px;
   }
-  .NewProductS .item .imgeOuter{
+  .NewProductS .item .imgeOuter {
     height: 200px;
   }
-  .myHr{
+  .myHr {
     max-width: 800px !important;
   }
   .myNewSec {
@@ -2430,16 +2434,14 @@ input[type="date"] {
   }
   .myNewOldSec {
     max-width: 800px;
-    display: block !important;
+    gap: 0px;
   }
-  .myNewOldSec .left{
-    width: 100%;
-    height: 400px;
+  .myNewOldSec .left {
+    width: 45%;
   }
   .myNewOldSec .right {
-    width: 100%;
-    margin-top: 2%;
-    }
+    width: 45%;
+  }
   .many {
     max-width: 800px;
   }
