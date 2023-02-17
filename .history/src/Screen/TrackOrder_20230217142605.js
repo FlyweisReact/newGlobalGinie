@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useState } from "react";
+import img1 from "../Assets/asset1.png";
 import Oil from "../Assets/Oil.png";
 import Hair from "../Assets/New 10.png";
 import some from "../Assets/Chicco Baby Moments Soft Cleansing Baby Wipes, Ideal for Nappy, Face and Hand, Dermatologically Tested, Paraben Free, Fliptop Pack.png";

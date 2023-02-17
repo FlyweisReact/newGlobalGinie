@@ -2,14 +2,14 @@
 
 import React from "react";
 import Hero4 from "../Component/Hero4";
-import newImg12 from "../Images/GET ME THIS Desktop.jpg";
+import { Card } from "react-bootstrap";
 import Reviews from "../Component/Reviews";
 
 // Images
 
 import img from "../Assets/28.png";
 
-import img2 from "../Images/Group 840.png";
+import img2 from "../Assets/29.png";
 
 import img3 from "../Assets/30.png";
 import img4 from "../Assets/31.png";
@@ -41,6 +41,9 @@ import clock from "../Assets/clock.png";
 import Apple from "../Assets/Apple Watch Series 7 (GPS, 45mm) Midnight.png";
 import adi from "../Assets/adidas Stadium 750 ML (26oz) Plastic Water Bottle.png";
 import gel from "../Assets/618-39BSrgL._SL1500_.png";
+
+import Give from "../Assets/Get Me This.png";
+
 import Whatsapp from "../Assets/Whatsapp icon.png";
 import phone from "../Assets/Phone call.png";
 import Mail from "../Assets/Mail Icon.png";
@@ -425,7 +428,7 @@ const Perfume = () => {
 
     
 
-      <h1 style={{ textAlign: "center", fontFamily: "MonumentMineMine" }}>
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         RECENTLY VIEWED
       </h1>
 
@@ -453,46 +456,30 @@ const Perfume = () => {
         </div>
       </div>
 
-      <div className="BanImage">
-        <img src={newImg12} alt="" />
+      <div className="Give">
+        <img src={Give} alt="" />
       </div>
 
-      <h1
-        style={{ textAlign: "center", fontFamily: "MonumentMineMine" }}
-        className="forRes"
-      >
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
-      <table
-        style={{
-          margin: "auto",
-          width: "700px",
-          textAlign: "center",
-          marginTop: "3%",
-          marginBottom: "3%",
-          fontSize: "23px",
-        }}
-      >
-        <tr>
-          <td style={{ borderRight: "1px solid black", width: "33%" }}>
-            {" "}
-            <img src={phone} alt="" style={{ width: "80px" }} />
-          </td>
-          <td style={{ borderRight: "1px solid black", width: "33%" }}>
-            {" "}
-            <img src={Mail} alt="" style={{ width: "80px" }} />
-          </td>
-          <td style={{ width: "33%" }}>
-            {" "}
-            <img src={Whatsapp} alt="" style={{ width: "80px" }} />
-          </td>
-        </tr>
-        <tr>
-          <td style={{ fontFamily: "FuturaMine" }}>PHONE</td>
-          <td style={{ fontFamily: "FuturaMine" }}>EMAIL US</td>
-          <td style={{ fontFamily: "FuturaMine" }}>WHATSAPP US</td>
-        </tr>
-      </table>
+      <div className="human">
+        <div>
+          <img src={phone} alt="" />
+          <h3 style={{ fontWeight: "400", paddingTop: "10%" }}>PHONE</h3>
+        </div>
+        <div className="Hori"></div>
+        <div>
+          <img src={Mail} alt="" />
+          <h3 style={{ fontWeight: "400", paddingTop: "10%" }}>EMAIL US</h3>
+        </div>
+        <div className="Hori"></div>
+
+        <div>
+          <img src={Whatsapp} alt="" />
+          <h3 style={{ fontWeight: "400", paddingTop: "10%" }}>WHATSAPP US</h3>
+        </div>
+      </div>
 
       <Footer />
     </>

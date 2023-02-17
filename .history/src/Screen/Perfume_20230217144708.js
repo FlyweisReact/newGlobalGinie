@@ -9,7 +9,7 @@ import Reviews from "../Component/Reviews";
 
 import img from "../Assets/28.png";
 
-import img2 from "../Images/Group 840.png";
+import img2 from "../Images/Group 840.";
 
 import img3 from "../Assets/30.png";
 import img4 from "../Assets/31.png";

@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import Mask from "../Images/beauty & Cosmetics Desktop.jpg";
+import Mask from "../Assets/27.jpg";
 import { Carousel } from "react-responsive-carousel";
-import Image from "../Images/beauty & Cosmetics Desktop 01.jpg";
+import Image from "../Assets/Get Me This.png";
 
 const images = [
   {

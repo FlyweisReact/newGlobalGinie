@@ -2,14 +2,14 @@
 
 import React from "react";
 import Hero4 from "../Component/Hero4";
-import newImg12 from "../Images/GET ME THIS Desktop.jpg";
+import { Card } from "react-bootstrap";
 import Reviews from "../Component/Reviews";
 
 // Images
 
 import img from "../Assets/28.png";
 
-import img2 from "../Images/Group 840.png";
+import img2 from "../Assets/29.png";
 
 import img3 from "../Assets/30.png";
 import img4 from "../Assets/31.png";
@@ -41,6 +41,9 @@ import clock from "../Assets/clock.png";
 import Apple from "../Assets/Apple Watch Series 7 (GPS, 45mm) Midnight.png";
 import adi from "../Assets/adidas Stadium 750 ML (26oz) Plastic Water Bottle.png";
 import gel from "../Assets/618-39BSrgL._SL1500_.png";
+
+import Give from "../Assets/Get Me This.png";
+
 import Whatsapp from "../Assets/Whatsapp icon.png";
 import phone from "../Assets/Phone call.png";
 import Mail from "../Assets/Mail Icon.png";
@@ -352,7 +355,7 @@ const Perfume = () => {
 
 
       <div className="pro">
-      <h1>INTERNATIONAL BEST SELLERS</h1>
+      <h1>WHAT'S TRENDING</h1>
         <button onClick={() => allProductNavigation()}>View all</button>
       </div>
 
@@ -360,7 +363,7 @@ const Perfume = () => {
         <div className="item">
           <div className="imgeOuter">
           <img
-              src={img17}
+              src={img8}
               alt=""
               onClick={() => NavigationHandler("/single")}
             />
@@ -376,7 +379,7 @@ const Perfume = () => {
         <div className="item">
           <div className="imgeOuter">
           <img
-              src={img18}
+              src={img9}
               alt=""
               onClick={() => NavigationHandler("/single")}
             />
@@ -392,7 +395,7 @@ const Perfume = () => {
         <div className="item">
           <div className="imgeOuter">
           <img
-              src={img19}
+              src={img10}
               alt=""
               onClick={() => NavigationHandler("/single")}
             />
@@ -408,7 +411,7 @@ const Perfume = () => {
         <div className="item">
           <div className="imgeOuter">
           <img
-              src={img20}
+              src={img11}
               alt=""
               onClick={() => NavigationHandler("/single")}
             />
@@ -423,9 +426,113 @@ const Perfume = () => {
         </div>
       </div>
 
-    
+      <div className="pro" style={{ marginTop: "8%" }}>
+        <h1>INTERNATIONAL BEST SELLERS</h1>
+        <button onClick={() => allProductNavigation()}>View all</button>
+      </div>
 
-      <h1 style={{ textAlign: "center", fontFamily: "MonumentMineMine" }}>
+      <div className="product">
+        <Card className="ProductCard">
+          <Card.Body>
+            <img
+              src={img17}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
+          </Card.Body>
+        </Card>
+        <div className="desc2">
+          <p>
+            Meta Quest 2 — Advanced All-In-One Virtual Reality
+            <br />
+            Headset — 128 GB
+            <br />
+            <soan>₹31,970.00</soan>
+          </p>{" "}
+        </div>
+
+        <Card className="ProductCard">
+          <Card.Body>
+            <img
+              src={img18}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
+          </Card.Body>
+        </Card>
+        <div className="desc2">
+          <p>
+            Corsair Vengeance RGB PRO 16GB (2x8GB) DDR4
+            <br />
+            3200MHz C16 LED Desktop Memory - Black
+            <br />
+            <soan>₹31,970.00</soan>
+          </p>{" "}
+        </div>
+        <Card className="ProductCard" style={{ width: "350px" }}>
+          <Card.Body>
+            <img
+              src={img19}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
+          </Card.Body>
+        </Card>
+        <div className="desc2">
+          <p>
+            Apple Watch Series 8 GPS + Cellular 45mm Midnight
+            <br />
+            Aluminium Case with Midnight Sport Band - M/L <br />
+            <soan>₹41,970.00</soan>
+          </p>{" "}
+        </div>
+        <Card className="ProductCard">
+          <Card.Body>
+            <img
+              src={img20}
+              alt=""
+              onClick={() => NavigationHandler("/single")}
+            />
+          </Card.Body>
+        </Card>
+        <div className="desc2">
+          <p>
+            Meta Quest 2 — Advanced All-In-One Virtual Reality
+            <br />
+            Headset — 128 GB <br />
+            <soan>₹31,970.00</soan>
+          </p>
+        </div>
+      </div>
+      <div className="Desc">
+        <p>
+          Meta Quest 2 — Advanced All-In-One Virtual Reality
+          <br />
+          Headset — 128 GB
+          <br />
+          <soan>₹31,970.00</soan>
+        </p>{" "}
+        <p style={{ marginLeft: "2rem" }}>
+          Corsair Vengeance RGB PRO 16GB (2x8GB) DDR4 <br />
+          3200MHz C16 LED Desktop Memory - Black
+          <br />
+          <soan>₹31,970.00</soan>
+        </p>{" "}
+        <p style={{ marginLeft: "2rem" }}>
+          Apple Watch Series 8 GPS + Cellular 45mm Midnight
+          <br />
+          Aluminium Case with Midnight Sport Band - M/L <br />
+          <soan>₹41,970.00</soan>
+        </p>{" "}
+        <p style={{ marginLeft: "2rem" }}>
+          Meta Quest 2 — Advanced All-In-One Virtual Reality
+          <br />
+          Headset — 128 GB <br />
+          <soan>₹31,970.00</soan>
+        </p>
+      </div>
+
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         RECENTLY VIEWED
       </h1>
 
@@ -453,46 +560,30 @@ const Perfume = () => {
         </div>
       </div>
 
-      <div className="BanImage">
-        <img src={newImg12} alt="" />
+      <div className="Give">
+        <img src={Give} alt="" />
       </div>
 
-      <h1
-        style={{ textAlign: "center", fontFamily: "MonumentMineMine" }}
-        className="forRes"
-      >
+      <h1 style={{ textAlign: "center", fontFamily: "MonumentMine" }}>
         TALK TO HUMAN
       </h1>
-      <table
-        style={{
-          margin: "auto",
-          width: "700px",
-          textAlign: "center",
-          marginTop: "3%",
-          marginBottom: "3%",
-          fontSize: "23px",
-        }}
-      >
-        <tr>
-          <td style={{ borderRight: "1px solid black", width: "33%" }}>
-            {" "}
-            <img src={phone} alt="" style={{ width: "80px" }} />
-          </td>
-          <td style={{ borderRight: "1px solid black", width: "33%" }}>
-            {" "}
-            <img src={Mail} alt="" style={{ width: "80px" }} />
-          </td>
-          <td style={{ width: "33%" }}>
-            {" "}
-            <img src={Whatsapp} alt="" style={{ width: "80px" }} />
-          </td>
-        </tr>
-        <tr>
-          <td style={{ fontFamily: "FuturaMine" }}>PHONE</td>
-          <td style={{ fontFamily: "FuturaMine" }}>EMAIL US</td>
-          <td style={{ fontFamily: "FuturaMine" }}>WHATSAPP US</td>
-        </tr>
-      </table>
+      <div className="human">
+        <div>
+          <img src={phone} alt="" />
+          <h3 style={{ fontWeight: "400", paddingTop: "10%" }}>PHONE</h3>
+        </div>
+        <div className="Hori"></div>
+        <div>
+          <img src={Mail} alt="" />
+          <h3 style={{ fontWeight: "400", paddingTop: "10%" }}>EMAIL US</h3>
+        </div>
+        <div className="Hori"></div>
+
+        <div>
+          <img src={Whatsapp} alt="" />
+          <h3 style={{ fontWeight: "400", paddingTop: "10%" }}>WHATSAPP US</h3>
+        </div>
+      </div>
 
       <Footer />
     </>

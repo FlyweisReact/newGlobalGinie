@@ -9,7 +9,7 @@ import Reviews from "../Component/Reviews";
 
 import img from "../Assets/28.png";
 
-import img2 from "../Images/Group 840.png";
+import img2 from "../Assets/29.png";
 
 import img3 from "../Assets/30.png";
 import img4 from "../Assets/31.png";
@@ -41,6 +41,9 @@ import clock from "../Assets/clock.png";
 import Apple from "../Assets/Apple Watch Series 7 (GPS, 45mm) Midnight.png";
 import adi from "../Assets/adidas Stadium 750 ML (26oz) Plastic Water Bottle.png";
 import gel from "../Assets/618-39BSrgL._SL1500_.png";
+
+import Give from "../Assets/Get Me This.png";
+
 import Whatsapp from "../Assets/Whatsapp icon.png";
 import phone from "../Assets/Phone call.png";
 import Mail from "../Assets/Mail Icon.png";
