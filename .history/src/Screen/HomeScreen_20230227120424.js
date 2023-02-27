@@ -25,7 +25,9 @@ import newImg10 from "../Images/controller.png";
 import newImg11 from "../Images/headphone.png";
 import newImg12 from "../Images/GET ME THIS Desktop.jpg";
 import newImg13 from "../Images/Best Deals gadgets & Electronics.jpg";
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 
 const HomeScreen = () => {
   const navigate = useNavigate();
@@ -41,7 +43,16 @@ const HomeScreen = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
+
   
+  const items = [
+    { src: img },
+    { src: img },
+    { src: img },
+    { src: img },
+    { src: img },
+  ];
+
   return (
     <>
       <Hero />

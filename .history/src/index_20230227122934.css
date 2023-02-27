@@ -437,6 +437,7 @@ code {
 .many div {
   width: 200px;
   height: 200px;
+  border: 1px solid black;
   position: relative;
 }
 .many div img {

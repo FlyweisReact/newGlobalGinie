@@ -26,7 +26,6 @@ import newImg11 from "../Images/headphone.png";
 import newImg12 from "../Images/GET ME THIS Desktop.jpg";
 import newImg13 from "../Images/Best Deals gadgets & Electronics.jpg";
 
-
 const HomeScreen = () => {
   const navigate = useNavigate();
 
@@ -41,9 +40,13 @@ const HomeScreen = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
+
+  
   
   return (
     <>
+   
+
       <Hero />
 
       <div className="two-sec">

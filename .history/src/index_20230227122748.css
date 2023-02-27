@@ -436,14 +436,14 @@ code {
 }
 .many div {
   width: 200px;
-  height: 200px;
+  max-height: 200px;
   position: relative;
 }
 .many div img {
   /* width: 100%;
   height: 100%; */
   position: absolute;
-  width: 100%;
+  width: 80%;
   left: 0;
   right: 0;
   top: 0;

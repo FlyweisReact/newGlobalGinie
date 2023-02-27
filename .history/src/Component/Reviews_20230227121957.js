@@ -21,16 +21,16 @@ const Reviews = () => {
     <>
       <Carousel
         className="ReviewCarousel"
-        autoPlay={true}
-        interval={2000}
+      autoPlay={true}
+         interval={2000}
         showThumbs={false}
         infiniteLoop={true}
         swipeable={true}
         stopOnHover={true}
-        showStatus={false}
+        showStatus={false} 
       >
         {images.map((i, index) => (
-          <div key={index} style={{ marginBottom: "10%" }}>
+          <div key={index} style={{marginBottom : '10%' }}>
             <div className="Review">
               <img src={Rating} alt="" className="Review" />
             </div>
@@ -42,8 +42,7 @@ const Reviews = () => {
             </div>
             <div className="ReviewImage">
               <div className="new">
-                <img src={User} alt="" style={{ width: "100px" }} />{" "}
-                <p> Ritu Kaur</p>
+                <img src={User} alt=""  style={{width : '100px'}} /> <p > Ritu Kaur</p>
               </div>
             </div>
           </div>

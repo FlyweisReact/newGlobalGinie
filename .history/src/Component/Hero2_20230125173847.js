@@ -15,14 +15,10 @@ const images = [
 const Hero2 = () => {
   return (
     <Carousel
-    autoPlay={true}
-         interval={2000}
-        className="ImageCarousel"
-        showThumbs={false}
-        infiniteLoop={true}
-        swipeable={true}
-        stopOnHover={true}
-        showStatus={false} 
+    autoPlay
+    className="ImageCarousel"
+    showThumbs={false}
+    infiniteLoop
   >
     {images.map((i, index) => (
       <div key={index}>

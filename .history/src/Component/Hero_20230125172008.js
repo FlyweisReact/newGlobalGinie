@@ -1,30 +1,27 @@
 /** @format */
 
 import React from "react";
-import Mask from "../Images/beauty & Cosmetics Desktop.jpg";
+import Mask from "../Images/Mask Group 1 1.png";
 import { Carousel } from "react-responsive-carousel";
-import Image from "../Images/beauty & Cosmetics Desktop 01.jpg";
+import img from '../Images/Homepage Desktop 01.jpg'
 
 const images = [
   {
     src: [Mask],
   },
   {
-    src: [Image],
+    src: [img],
   },
 ];
 
-const Hero4 = () => {
+const Hero = () => {
   return (
-    <Carousel
-        autoPlay={true}
-         interval={2000}
+    <>
+      <Carousel
+        autoPlay
         className="ImageCarousel"
         showThumbs={false}
-        infiniteLoop={true}
-        swipeable={true}
-        stopOnHover={true}
-        showStatus={false} 
+        infiniteLoop
       >
         {images.map((i, index) => (
           <div key={index}>
@@ -32,7 +29,8 @@ const Hero4 = () => {
           </div>
         ))}
       </Carousel>
-  )
-}
+    </>
+  );
+};
 
-export default Hero4
+export default Hero;

@@ -16,7 +16,7 @@ code {
 }
 @font-face {
   font-family: MonumentMineMine;
-  src: url(./Fonts/MonumentMineExtended-FreeForPersonalUse/MonumentMineExtended-Regular.otf);
+  src: url(./Fonts/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
 }
 
 @font-face {
@@ -30,16 +30,17 @@ code {
 }
 
 #FileBtn {
-  width: 10%;
+  width: 200px;
   padding: 10px;
   background-color: white;
   border: 1px solid white;
   border-radius: 10px;
   position: absolute;
-  margin-top: 29%;
-  margin-left: 45%;
   font-size: 1.5rem;
   font-weight: 600;
+  left: 43%;
+  height: 50px;
+  bottom: 50px;
 }
 
 /* Logo */
@@ -143,7 +144,6 @@ code {
   height: auto;
   border-radius: 10px;
 }
-/* fdsfdsf */
 .two-sec .right {
   text-align: center;
   margin: auto auto;
@@ -156,12 +156,15 @@ code {
   margin-bottom: 50px;
   margin-top: 30px;
   font-size: 1.4rem;
-  font-weight: 200;
   font-family: FuturaMine;
 }
 
 .two-sec .right h1 {
-  font-family: MonumentMineMine;
+  font-family: MonumentMine;
+  font-size: 3rem;
+}
+.two-sec .right h2 {
+  font-family: MonumentMine;
   font-size: 3rem;
 }
 .two-sec .right button {
@@ -255,7 +258,7 @@ code {
   max-width: 1400px;
   margin: auto;
   justify-content: space-between;
-  gap: 40px;
+  gap: 120px;
   margin-bottom: 5% !important;
 }
 .myNewOldSec .left {
@@ -433,11 +436,20 @@ code {
 }
 .many div {
   width: 200px;
-  height: 200px;
+  height: 300px;
+  position: relative;
 }
 .many div img {
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+  position: absolute;
+  width: 80%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  padding: 20px;
 }
 
 .BanImage {
@@ -463,9 +475,21 @@ code {
   margin-bottom: 5%;
 }
 
+.Gamers {
+  margin-bottom: 5%;
+  background-image: url("./Assets/Gmaers.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 585px;
+  max-width: 1400px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
 .Give h1 {
   padding-top: 5%;
-  font-weight: 400;
   font-size: 2.2rem;
   font-family: MonumentMine;
 }
@@ -653,7 +677,8 @@ input[type="date"] {
 
 .SingleP {
   display: flex;
-  margin-left: 20px;
+  max-width: 1400px;
+  margin: auto;
   margin-top: 5%;
 }
 
@@ -730,8 +755,9 @@ input[type="date"] {
 
 .two-sec-form {
   display: flex;
-  margin-left: 7%;
-  margin-right: 9% !important ;
+  max-width: 1400px;
+  margin: auto;
+  margin-bottom: 5% !important;
 }
 .two-sec-form .left {
   width: 50%;
@@ -750,7 +776,7 @@ input[type="date"] {
 
 .two-sec-form .left h3 {
   padding-top: 10%;
-  font-family: Nexa Bold PT Medium Oblique;
+  font-family: NexaBold;
 }
 
 .back {
@@ -771,7 +797,7 @@ input[type="date"] {
   margin-top: 5%;
   font-weight: 100;
   gap: 40px;
-  font-family: Futara BT Pro Light;
+  font-family: FuturaMine;
 }
 .NewForm input {
   width: 80%;
@@ -798,7 +824,7 @@ input[type="date"] {
 .BMI h2 {
   margin-top: 1%;
   color: black;
-  font-family: Larryline Italic;
+  font-family: FuturaMine;
 }
 .BMI input {
   border: 1px solid white;
@@ -817,9 +843,10 @@ input[type="date"] {
 
 .men-b {
   display: flex;
-  margin-left: 7%;
-  margin-right: 7%;
+  max-width: 1400px;
   height: 100%;
+  margin: auto;
+  margin-bottom: 5% !important;
 }
 .men-b .left {
   background-color: #e9a979;
@@ -835,6 +862,7 @@ input[type="date"] {
 
 .men-b .right img {
   width: 100%;
+  height: 100%;
 }
 
 .men-b .left p {
@@ -859,6 +887,7 @@ input[type="date"] {
   font-size: 2rem;
   width: 30%;
   border-radius: 10px;
+  width: 200px;
 }
 .men-b .left .nap {
   width: 80%;
@@ -870,8 +899,9 @@ input[type="date"] {
 
 .gym-B {
   display: flex;
-  margin-left: 7%;
-  margin-right: 10%;
+  max-width: 1400px;
+  margin: auto;
+  margin-bottom: 5% !important;
 }
 .gym-B .left {
   width: 35%;
@@ -879,6 +909,7 @@ input[type="date"] {
   color: #ffffff;
   padding-left: 7%;
   float: left;
+  position: relative;
 }
 
 .gym-B .right {
@@ -886,6 +917,7 @@ input[type="date"] {
 }
 .gym-B .right img {
   width: 100%;
+  height: 100%;
 }
 
 .gym-B .left h1 {
@@ -893,16 +925,19 @@ input[type="date"] {
   padding-top: 20%;
   letter-spacing: 5px;
   font-weight: 400;
+  font-family: MonumentMine;
 }
 
 .gym-B .left h2 {
   font-weight: 100;
   margin-top: 10%;
   letter-spacing: 2px;
+  font-family: FuturaMine;
 }
 .gym-B .left p {
   font-size: 2.5rem;
   margin-top: 10%;
+  font-family: NexaMine;
 }
 .gym-B .left button {
   padding: 10px;
@@ -912,8 +947,9 @@ input[type="date"] {
 }
 
 .gym-B .left img {
-  margin-top: 35%;
   width: 50%;
+  position: absolute;
+  bottom: 10px;
 }
 
 .Deliver {
@@ -948,6 +984,7 @@ input[type="date"] {
 
 .vegLogo .first {
   display: flex;
+  gap: 10px;
 }
 .vegLogo .first img {
   width: 50px;
@@ -970,24 +1007,29 @@ input[type="date"] {
 
 .amazon {
   display: flex;
-  margin-left: 30%;
+  max-width: 1400px;
+  margin: auto;
   margin-top: 5%;
   gap: 10px;
+  justify-content: center;
 }
 
 .amazon h2 {
   border-bottom: 1px solid #ff9900;
+  font-family: MonumentMineMine;
 }
 
 .Tog {
   font-size: 1.5rem;
   font-family: MonumentMineMine;
-  margin-left: 10%;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .Syrup {
   display: flex;
-  margin-left: 7%;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .Syrup .ImagesS {
@@ -1010,14 +1052,16 @@ input[type="date"] {
 
 .technI {
   font-size: 1.8rem;
-  font-weight: bold;
-  margin-left: 5%;
-  font-family: Nexa;
+  /* margin-left: 5%; */
+  max-width: 1400px;
+  margin: auto;
+  font-family: NexaBold;
 }
 
 .TB {
   display: flex;
-  margin-left: 5%;
+  max-width: 1400px;
+  margin: auto;
   margin-bottom: 5%;
 }
 .TB .left {
@@ -1028,11 +1072,13 @@ input[type="date"] {
 .TB .left p {
   padding-left: 50px !important;
   padding: 10px;
+  font-family: NexaBold;
   border-bottom: 1px solid black;
 }
 .TB .right p {
   padding: 10px;
   border-bottom: 1px solid black;
+  font-family: FuturaMine;
 }
 .TB .right {
   width: 40%;
@@ -1043,12 +1089,12 @@ input[type="date"] {
 .technI h6 {
   max-width: 80%;
   font-size: 1.4rem;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
 }
 
 .ProductReviews {
-  margin-left: 5%;
-  margin-right: 5%;
+  max-width: 1400px;
+  margin: auto;
 }
 .ProductReviews .head {
   font-size: 1.9rem;
@@ -1064,11 +1110,10 @@ input[type="date"] {
 .CR p {
   font-size: 2.2rem;
   margin-top: 10px;
+  font-family: NexaBold;
 }
 .ProductReviews h3 {
-  font-weight: 400;
-  padding: 10px;
-  padding-top: 30px !important;
+  font-family: NexaBold;
 }
 
 .ArrowI {
@@ -1081,6 +1126,7 @@ input[type="date"] {
 }
 .OFC p {
   font-size: 2rem;
+  font-family: FuturaMine;
 }
 .OFC ul li {
   cursor: pointer;
@@ -1093,7 +1139,7 @@ input[type="date"] {
 }
 .OFC ul li p {
   width: 80%;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   font-weight: 100 !important;
   font-size: 1.6rem;
   font-family: FuturaMine;
@@ -1111,6 +1157,7 @@ input[type="date"] {
   margin-top: 20px;
   display: flex;
   gap: 70px;
+  max-width: 100%;
 }
 
 .nav-Images p {
@@ -1120,30 +1167,57 @@ input[type="date"] {
   width: 70%;
 }
 
-/* ----------------------------------------------------------------- */
+/* --------MyOrderFour--------------------------------------------------------- */
 .MyOrderHead {
   display: flex;
-  margin-left: 3%;
-  margin-top: 10%;
+  margin-top: 5% !important;
+  max-width: 1400px;
+  margin: auto;
+  gap: 10px;
 }
-.MyOrderHead h1 {
-  margin-top: 2%;
-  font-size: 3rem;
-  font-family: MonumentMineMine;
-  margin-left: 35%;
-  font-weight: bolder;
+.MyOrderHead .SS {
+  justify-content: center;
+  display: block;
+  margin: auto;
+}
+.MyOrderHead .SS p {
+  font-size: 2rem;
+  font-family: MonumentMine;
+  color: #a8a8a8;
+}
+.MyOrderHead .SS div {
+  display: flex;
+  gap: 10px;
+}
+
+.MyOrderHead .SS div input {
+  width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.MyOrderHead .SS div button {
+  width: 150px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #000207;
+  border-radius: 5px;
+  font-family: MonumentMine;
 }
 
 .MyOrderFour {
   display: flex;
-  margin-left: 3%;
-  margin-top: 5%;
+  margin: auto;
+  margin-top: 5% !important;
+  max-width: 1400px;
+  justify-content: space-evenly;
+  gap: 10px;
 }
 .MyOrderFour h3 {
   font-size: 2.2rem;
-  font-family: Nexa Bold;
-  font-weight: 300;
-  margin-left: 7%;
+  font-family: FuturaMine;
   cursor: pointer;
 }
 .special {
@@ -1152,11 +1226,12 @@ input[type="date"] {
 
 .MyOrderPlaced {
   display: flex;
-  margin-left: 10%;
+  max-width: 1400px;
+  margin: auto;
   margin-top: 5%;
 }
 .MyOrderPlaced h2 {
-  font-family: Nexa;
+  font-family: FuturaMine;
 }
 .MyOrderPlaced select {
   margin-left: 3%;
@@ -1177,9 +1252,9 @@ input[type="date"] {
 
 .MyOrderTwoSec {
   display: flex;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 8%;
+  margin-top: 3% !important;
+  max-width: 1400px;
+  margin: auto;
 }
 .MyOrderTwoSec .left {
   width: 70%;
@@ -1193,11 +1268,11 @@ input[type="date"] {
 }
 .MyOrderTwoSec .left .desc h2 {
   font-size: 1.4rem;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
 }
 .MyOrderTwoSec .left .desc p {
   max-width: 400px;
-  font-family: Nexa Bold;
+  font-family: FuturaMine;
 }
 .MyOrderTwoSec .left .desc h6 {
   font-size: 1.5rem;
@@ -1268,9 +1343,11 @@ input[type="date"] {
 
 .ReturnCom {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 5%;
+  /* width: 80%; */
+  /* margin-left: 10%; */
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 5% !important;
   justify-content: space-evenly;
 }
 
@@ -1279,7 +1356,7 @@ input[type="date"] {
   border: 1px solid black;
   padding: 50px;
   border-radius: 10px;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
 }
 .ReturnCom .left .up {
   display: flex;
@@ -1303,7 +1380,7 @@ input[type="date"] {
   border-radius: 10px;
   border: 1px solid #707070;
   margin-bottom: 6%;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -1311,7 +1388,7 @@ input[type="date"] {
 
 .ReturnCom .right .up-p {
   font-size: 1.4rem;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   text-align: center;
 }
 
@@ -1328,19 +1405,21 @@ input[type="date"] {
 /* -------------------------------------------------------------------- */
 
 .OrderSum {
-  float: right;
-  margin-right: 13%;
-  margin-top: 5%;
-  font-family: Nexa Bold;
+  margin-top: 3% !important;
+  max-width: 1400px;
+  margin: auto;
+  text-align: right;
+  font-family: NexaBold;
 }
 
 .OrderSumSection {
   display: flex;
-  margin-left: 8%;
-  margin-top: 5%;
-  margin-right: 10%;
+  margin-top: 2% !important;
   justify-content: space-evenly;
-  font-family: Nexa Bold;
+  font-family: FuturaMine;
+  max-width: 1400px;
+  gap: 10px;
+  margin: auto;
 }
 .OrderSumSection .second {
   margin-top: 2%;
@@ -1356,39 +1435,35 @@ input[type="date"] {
   margin-top: 2%;
   padding: 10px;
   border-radius: 10px;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   color: white;
   background-color: #5a5a5a;
-  /* background-color: #a4a4a4; */
   border: 1px solid #a4a4a4;
 }
 
 /* -------------------------------------------------------------------- */
 
 .OrderSumInvoice {
-  margin-top: 10%;
+  margin-top: 3% !important;
   display: flex;
   border: 1px solid black;
-  width: 80%;
+  max-width: 1400px;
   border-radius: 20px;
-  margin-left: 10%;
+  margin: auto;
   justify-content: space-between;
   padding-top: 5%;
   padding-right: 5%;
   padding-bottom: 5%;
 }
 .OrderSumInvoice h3 {
-  font-family: Nexa Bold;
-  font-weight: bold;
+  font-family: NexaBold;
 }
 .OrderSumInvoice h5 {
-  font-family: Nexa;
-  font-weight: 800;
+  font-family: NexaBold;
   font-size: 1.5rem;
 }
 .OrderSumInvoice p {
-  font-family: Nexa;
-  font-weight: bold;
+  font-family: NexaBold;
 }
 
 .OrderSumInvoice .left {
@@ -1439,54 +1514,57 @@ input[type="date"] {
 /* -------------------------------------------------------------------- */
 .shopping {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 8% !important;
   justify-content: space-between;
 }
 .shopping h1 {
   font-family: MonumentMineMine;
 }
 .shopping h2 {
-  font-family: Nexa;
+  font-family: NexaBold;
 }
 .shoppingH2 {
-  margin-left: 10%;
-  margin-top: 3%;
-  font-family: Nexa;
+  margin-top: 3% !important;
+  font-family: NexaBold;
+  max-width: 1400px;
+  margin: auto;
 }
 .shoppingAddress {
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-top: 3% !important;
+  max-width: 1400px;
+  margin: auto;
 }
 .shoppingAddress h2 {
-  font-family: Nexa;
+  font-family: NexaBold;
 }
 .shoppingAddress p {
   font-size: 1.3rem;
-  font-size: Nexa;
+  font-family: FuturaMine;
 }
 
 .shoppingTwoSec {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  max-width: 1400px;
+  margin: auto;
   gap: 50px;
-  margin-top: 5%;
+  margin-top: 5% !important;
 }
 .shoppingTwoSec p {
   font-size: 1.4rem;
   margin-top: 4%;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
 }
 
 .shoppingIndia {
-  margin-top: 5%;
+  margin-top: 5% !important;
+  max-width: 1400px;
+  margin: auto;
 }
 .shoppingIndia h1 {
   text-align: center;
-  font-family: Nexa;
+  font-family: NexaBold;
 }
 .shoppingIndia div {
   display: flex;
@@ -1514,30 +1592,32 @@ input[type="date"] {
 }
 
 .shoppingTrack {
-  /* margin-top: 10% !important; */
-  /* margin-bottom: 5% !important; */
   display: block;
   margin: auto;
-  width: 30%;
+  width: 400px;
   padding: 10px;
   font-size: 1.6rem;
   color: #fff;
   background-color: #000207;
   border-radius: 10px;
-  font-family: Nexa;
+  font-family: NexaBold;
 }
 
 .shoppingTrackBtn {
   display: flex;
-  margin-top: 10%;
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
+  max-width: 1400px;
+  margin: auto;
 }
 /* -------------------------------------------------------------------- */
 
 .OrderSummary {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
-  margin-bottom: 10%;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5% !important;
 }
 .OrderSummary .left {
   width: 60%;
@@ -1548,6 +1628,7 @@ input[type="date"] {
 }
 .OrderSummary .left .section .sectionP {
   text-align: right;
+  font-family: NexaBold;
 }
 .OrderSummary .left .section .Under {
   display: flex;
@@ -1555,11 +1636,11 @@ input[type="date"] {
 }
 .OrderSummary .left .section .Under h5 {
   margin-top: 15%;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   font-weight: bold;
 }
 .OrderSummary .left .section .Under p {
-  font-family: Nexa Bold;
+  font-family: FuturaMine;
   font-size: 1rem !important;
 }
 .spe {
@@ -1582,12 +1663,10 @@ input[type="date"] {
   margin-top: 5%;
 }
 .OrderSummary .right .upper h5 {
-  font-family: Nexa;
-  font-weight: bolder;
+  font-family: NexaBold;
 }
 .OrderSummary .right .upper p {
-  font-family: Nexa;
-  font-weight: lighter;
+  font-family: NexaBold
 }
 .OrderSummary .right button {
   border: 1px solid black;
@@ -1596,8 +1675,7 @@ input[type="date"] {
   background-color: black;
   color: white;
   border-radius: 5px;
-  font-family: Nexa;
-  font-weight: bold;
+  font-family: NexaBold;
 }
 
 .QTY {
@@ -1614,8 +1692,7 @@ input[type="date"] {
   border: 1px solid #7d7b7b;
   width: 40px;
   border-radius: 5px;
-  font-family: Nexa Bold;
-  font-weight: bold;
+  font-family: NexaBold;
 }
 /* -------------------------------------------------------------------- */
 
@@ -1639,7 +1716,7 @@ input[type="date"] {
   border-radius: 10px;
 }
 .OrderSummary .left .LeftForm label {
-  font-family: Nexa;
+  font-family: NexaBold;
   margin-bottom: 10px;
   font-size: 1.4rem;
   font-weight: lighter;
@@ -1678,6 +1755,7 @@ input[type="date"] {
 .ReturnRefund {
   background-color: #e3e3e3;
   display: block;
+  max-width: 1400px;
   margin: auto;
   padding: 10px;
   text-align: center;
@@ -1712,40 +1790,42 @@ input[type="date"] {
 /* -------------------------------------------------------------------- */
 
 .return {
-  font-family: Nexa;
-  font-weight: bolder;
-  margin-left: 10%;
+  font-family: NexaBold;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 1% !important;
 }
 
 /* -------------------------------------------------------------------- */
 
 .StatusRefund {
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-top: 5% !important;
   font-family: MonumentMineMine;
   font-weight: bolder;
-  margin-bottom: 2%;
+  max-width: 1400px;
+  margin-bottom: 2% !important;
+  margin: auto;
 }
 
 .StatusRefundTwoSec {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
+  max-width: 1400px;
+  margin: auto;
   margin-top: 5%;
 }
 .StatusRefundTwoSec p {
   margin-top: 5%;
   font-size: 1.6rem;
-  font-family: Nexa;
+  font-family: NexaBold;
   font-weight: lighter;
   margin-left: 5%;
 }
 .StatusRefundBox {
-  margin-top: 10%;
-  margin-bottom: 5%;
-  width: 80%;
-  margin-left: 10%;
+  margin-top: 5% !important;
+  margin-bottom: 5% !important;
   display: flex;
+  max-width: 1400px;
+  margin: auto;
   justify-content: space-between;
 }
 .StatusRefundBox .left .first {
@@ -1831,19 +1911,21 @@ input[type="date"] {
 /* -------------------------------------------------------------------- */
 
 .your-add {
-  margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 10% !important;
+  max-width: 1400px;
+  margin: auto;
   font-size: 3rem;
-  font-family: MonumentMine;
-  font-weight: bolder;
+  font-family: MonumentMineMine;
 }
 
 .your-add-threeSec {
-  display: flex;
-  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  max-width: 1400px;
+  margin: auto;
+  gap: 20px;
   justify-content: space-evenly;
-  margin-top: 5%;
-  margin-left: 5%;
+  margin-top: 5% !important;
 }
 
 .your-add-threeSec div {
@@ -1868,19 +1950,20 @@ input[type="date"] {
 /* -------------------------------------------------------------------- */
 
 .profileEdit {
-  margin-left: 20%;
   border: 1px solid black;
-  width: 68%;
+  max-width: 1400px;
   padding: 10px;
-  margin-bottom: 10%;
+  margin-bottom: 10% !important;
+  margin-top: 5% !important;
+  margin: auto;
   border-radius: 10px;
 }
 .profileEdit .big h6 {
   margin-left: 5%;
   margin-top: 5%;
   font-size: 1.7rem;
-  font-family: MonumentMine;
-  font-weight: bold;
+  font-family: MonumentMineMine;
+  /* font-weight: bold; */
 }
 
 .profileEdit .big .dwn {
@@ -1900,13 +1983,13 @@ input[type="date"] {
   color: white;
   border: 1px solid black;
   border-radius: 10px;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   font-weight: bold;
   margin-right: 5%;
 }
 
 .ProfileHidden h6 {
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   margin-left: 5%;
   font-size: 1.5rem;
   font-weight: bolder;
@@ -1951,31 +2034,32 @@ input[type="date"] {
 
 /* -------------------------------------------------------------------- */
 .customerSer {
-  margin-left: 10%;
+  max-width: 1400px;
+  margin: auto;
   margin-top: 5%;
 }
 .customerSer p {
   font-size: 1.7rem;
-  font-family: Nexa;
+  font-family: NexaBold;
   font-weight: lighter;
 }
 .customerSer h6 {
   margin-left: 2%;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
   font-size: 2rem;
   font-weight: bold;
 }
 .customerSerHead {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
+  max-width: 1400px;
+  margin: auto;
   justify-content: space-between;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .customerSerHead p {
   font-size: 1.8rem;
   font-weight: lighter;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   margin-top: 2%;
 }
 /* -------------------------------------------------------------------- */
@@ -1983,20 +2067,22 @@ input[type="date"] {
 .returnRefundP {
   text-align: center;
   margin-top: 8%;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 
 .returnRefundPdiv {
-  margin-top: 3%;
-  font-family: Nexa;
+  margin-top: 2% !important;
+  font-family: NexaBold;
   font-size: 1.6rem;
-  margin-left: 10%;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .returnRefundPdiv2 {
-  margin-top: 3%;
-  margin-left: 10%;
-  font-family: Nexa;
+  margin-top: 3% !important;
+  font-family: NexaBold;
+  max-width: 1400px;
+  margin: auto;
   margin-bottom: 10%;
 }
 
@@ -2006,12 +2092,12 @@ input[type="date"] {
 .returnRefundPdiv2 p {
   font-size: 1.6rem;
   margin-top: 1%;
+  font-family: FuturaMine;
 }
 
 /* -------------------------------------------------------------------- */
 .facial {
-  width: 80%;
-  display: block;
+  max-width: 1400px;
   margin: auto;
 }
 .facial img {
@@ -2021,46 +2107,45 @@ input[type="date"] {
 
 .facialH1 {
   font-size: 2rem;
-  margin-left: 10%;
-  margin-top: 5%;
-  font-family: Nexa Bold;
+  margin-top: 5% !important;
+  max-width: 1400px;
+  margin: auto;
+  font-family: NexaBold;
 }
 
 .facialAdd {
-  width: 300px;
-  margin-left: 10%;
+  max-width: 1400px;
+  margin: auto;
   margin-top: 2%;
 }
 .facialAdd p {
   font-size: 1.6rem;
-  font-family: Nexa;
-  font-weight: 500;
+  font-family: NexaBold;
 }
 .facialDesc {
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 5%;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 5% !important;
 }
 
 .facialDesc h4 {
-  font-family: Nexa;
-  font-weight: bold;
+  font-family: NexaBold;
   margin-bottom: 1%;
 }
 
 .facialDesc p {
   font-size: 1.5rem;
   margin-top: 1%;
-  font-family: Nexa;
+  font-family: NexaBold;
 }
 
 .facialTwosec {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
-  margin-bottom: 1%;
+  margin-bottom: 1% !important;
   gap: 10%;
-  margin-top: 5%;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 5% !important;
 }
 .facialTwosec .left {
   width: 30%;
@@ -2068,33 +2153,37 @@ input[type="date"] {
 .facialTwosec .left img {
   width: 100%;
 }
+
+.OrderSummary .left .LeftForm {
+  margin-top: 0;
+}
 .facialTwosec h5 {
-  font-family: Nexa;
+  font-family: NexaBold;
   font-size: 1.6rem;
-  font-weight: bold;
 }
 
 .facialTwosec p {
   font-size: 1.4rem;
   margin-top: 2%;
-  font-family: Nexa;
+  font-family: NexaBold;
 }
 
 .facialCon {
-  width: 80%;
   display: block;
   margin: auto;
   font-size: 1.4rem;
-  font-family: Nexa;
+  font-family: NexaBold;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .facialThreeSec {
-  margin-bottom: 5%;
-  width: 80%;
+  margin-bottom: 5% !important;
   display: flex;
-  margin-left: 10%;
   justify-content: space-evenly;
-  margin-top: 5%;
+  margin-top: 5% !important;
+  max-width: 1400px;
+  margin: auto;
 }
 
 .facialThreeSec .spec {
@@ -2111,15 +2200,15 @@ input[type="date"] {
   font-weight: bold;
 }
 .facialThreeImg {
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
-  margin-left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 5% !important;
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .facialThreeImg div {
-  width: 30%;
+  width: 450px;
 }
 
 .facialThreeImg div img {
@@ -2132,66 +2221,66 @@ input[type="date"] {
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
-  font-family: Nexa;
-  font-weight: bold;
+  font-family: NexaBold;
 }
 
 /* -------------------------------------------------------------------- */
 
 .FAQ {
-  margin-top: 10%;
-  margin-left: 10%;
+  margin-top: 5% !important;
+  max-width: 1400px;
+  margin: auto;
 }
 .FAQ h2 {
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 .FAQ p {
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   font-size: 1.6rem;
 }
 
 .FAQInput {
   display: flex;
-  margin-left: 10%;
-  width: 60%;
+  max-width: 1400px;
+  margin: auto;
+  position: relative;
 }
 .FAQInput input {
   width: 100%;
   padding: 20px;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   border-radius: 10px;
   font-size: 1.4rem;
   outline: none;
 }
 .FAQInput img {
   position: absolute;
-  margin-left: 57%;
-  margin-top: 1%;
+  top: 10px;
+  right: 20px;
 }
 
 .FAQtwosec {
-  margin-top: 5%;
+  margin-top: 2% !important;
   display: flex;
-  margin-bottom: 5%;
-  width: 80%;
-  margin-left: 10%;
+  margin-bottom: 5% !important;
+  max-width: 1400px;
+  margin: auto;
   gap: 2%;
 }
 
 .FAQtwosec .left {
-  width: 20%;
+  width: 30%;
 }
 .FAQtwosec .right {
-  width: 50%;
+  width: 60%;
 }
 
 .FAQtwosec .left ul li {
   list-style-type: none;
   font-size: 1.6rem;
-  font-family: Nexa;
+  font-family: NexaBold;
   border-bottom: 1px solid black;
   padding-bottom: 2%;
-  /* margin-top: 2%; */
   cursor: pointer;
   text-align: center;
   width: 90%;
@@ -2199,18 +2288,20 @@ input[type="date"] {
 }
 
 .FAQtwosec .left ul li:focus {
-  font-weight: bold;
-  font-size: 1.9rem;
+  font-weight: bolder;
+  font-size: 2rem;
 }
 .FAQtwosec .right .new {
   margin-top: 3%;
-  font-family: Nexa Bold;
+
   display: flex;
   justify-content: space-between;
+  font-family: FuturaMine;
 }
 
 .FAQtwosec .right .new h4 {
   font-weight: bold;
+  font-family: NexaBold;
 }
 
 /* -------------------------------------------------------------------- */
@@ -2227,7 +2318,7 @@ input[type="date"] {
 }
 .ModalChange div h6 {
   font-size: 1.6rem;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
 }
 .ModalBtn {
   display: flex;
@@ -2240,40 +2331,12 @@ input[type="date"] {
   color: white;
   padding: 10px;
   border-radius: 10px;
+  font-family: NexaBold;
   margin-top: 3%;
 }
 
 .ResFacial {
   display: none;
-}
-.MyOrderHead .SS {
-  margin-left: 25%;
-}
-.MyOrderHead .SS p {
-  font-size: 2rem;
-  font-family: MonumentMine;
-  color: #a8a8a8;
-}
-.MyOrderHead .SS div {
-  display: flex;
-  gap: 10px;
-}
-
-.MyOrderHead .SS div input {
-  width: 600px;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid grey;
-}
-
-.MyOrderHead .SS div button {
-  width: 150px;
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: #000207;
-  border-radius: 5px;
-  font-family: MonumentMine;
 }
 
 #OFFC {
@@ -2389,6 +2452,206 @@ input[type="date"] {
   .child {
     max-width: 1000px !important;
   }
+  .Gamers {
+    max-width: 1000px !important;
+  }
+  #FileBtn {
+    bottom: 160px;
+  }
+  .two-sec-form {
+    max-width: 1000px !important;
+  }
+  .two-sec-form .right img {
+    height: 100% !important;
+  }
+
+  .BMIbutton {
+    margin-bottom: 20px;
+  }
+  .BMI {
+    margin-left: 10%;
+  }
+  .gym-B {
+    max-width: 1000px !important;
+  }
+  .gym-B .left {
+    width: 42%;
+    padding-bottom: 20px;
+  }
+  .gym-B .left img {
+    display: none;
+  }
+  .men-b {
+    max-width: 1000px !important;
+  }
+  .MyOrderHead {
+    max-width: 1000px !important;
+  }
+  .StatusRefund {
+    max-width: 1000px !important;
+  }
+  .StatusRefundBox {
+    max-width: 1000px !important;
+  }
+  .MyOrderPlaced {
+    max-width: 1000px !important;
+  }
+  .OrderSum {
+    max-width: 1000px;
+  }
+  .OrderSumSection {
+    max-width: 1000px;
+  }
+  .OrderSumInvoice {
+    max-width: 1000px;
+  }
+  .return {
+    max-width: 1000px;
+  }
+  .MyOrderTwoSec {
+    max-width: 1000px;
+  }
+  .MyOrderTwoSec .left img {
+    height: 70%;
+  }
+  .ReturnCom {
+    max-width: 1000px;
+  }
+  .shopping {
+    max-width: 1000px;
+  }
+  .shoppingAddress {
+    max-width: 1000px;
+  }
+  .shoppingTwoSec {
+    max-width: 1000px;
+  }
+  .StatusRefundTwoSec {
+    max-width: 1000px;
+  }
+  .your-add-threeSec {
+    max-width: 1000px;
+  }
+  .your-add {
+    max-width: 1000px;
+  }
+  .profileEdit {
+    max-width: 1000px;
+  }
+  .customerSer {
+    max-width: 1000px;
+  }
+  .customerSerHead {
+    max-width: 1000px;
+  }
+  .nav-Images {
+    max-width: 500px;
+  }
+  .FAQ {
+    max-width: 1000px;
+  }
+  .FAQInput {
+    max-width: 1000px;
+  }
+  .FAQtwosec {
+    max-width: 1000px;
+  }
+  .facial {
+    max-width: 1000px;
+  }
+  .facialH1 {
+    max-width: 1000px;
+  }
+  .facialAdd {
+    max-width: 1000px;
+  }
+  .facialDesc {
+    max-width: 1000px;
+  }
+  .facialTwosec {
+    max-width: 1000px;
+  }
+  .facialTwosec .left {
+    width: 50%;
+  }
+  .facialCon {
+    max-width: 1000px;
+  }
+  .facialThreeSec {
+    max-width: 1000px;
+  }
+  .facialThreeImg {
+    max-width: 1000px;
+  }
+  .facialThreeImg div {
+    width: 300px;
+  }
+
+  .returnRefundPdiv {
+    max-width: 1000px;
+  }
+  .returnRefundPdiv2 {
+    max-width: 1000px;
+  }
+  .ReturnRefund{
+    max-width: 1000px;
+  }
+
+  .SingleP {
+    max-width: 1000px;
+  }
+
+  .amazon {
+    max-width: 1000px;
+  }
+
+  .Tog {
+    max-width: 1000px;
+  }
+
+  .Syrup {
+    max-width: 1000px;
+  }
+
+  .Syrup .ImagesS {
+    width: 300px;
+    height: 300px;
+  }
+
+  .plus {
+    padding-top: 60px;
+  }
+
+  .technI {
+    max-width: 1000px;
+  }
+  .TB {
+    max-width: 1000px;
+  }
+  .ProductReviews {
+    max-width: 1000px;
+  }
+  .shoppingH2{
+    max-width: 1000px;
+  }
+  .shoppingTrackBtn{
+    max-width: 1000px;
+  }
+
+  .OrderSummary{
+    max-width: 1000px;
+  }
+  .secondSummm{
+    display: block;
+  }
+  .secondSummm .left{
+    width: 100%;
+  }
+
+  .secondSummm .right{
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 980px) {
@@ -2455,5 +2718,273 @@ input[type="date"] {
   }
   .footer .all {
     max-width: 800px;
+  }
+  .Gamers {
+    max-width: 800px !important;
+  }
+  #FileBtn {
+    bottom: 160px;
+    left: 54%;
+  }
+  .two-sec-form {
+    max-width: 800px;
+  }
+  .two-sec-form .right img {
+    height: 100% !important;
+  }
+
+  .BMIbutton {
+    margin-bottom: 20px;
+  }
+  .BMI {
+    margin-left: 10%;
+  }
+  .gym-B {
+    max-width: 800px !important;
+  }
+  .gym-B .left {
+    width: 48%;
+  }
+  .men-b {
+    max-width: 800px !important;
+    height: 550px;
+  }
+  .men-b .left {
+    padding-top: 0;
+    width: 40%;
+    position: relative;
+  }
+  .men-b .left p {
+    font-size: 2rem;
+  }
+  .men-b .left h1 {
+    font-size: 2rem;
+  }
+  .men-b .left button {
+    position: absolute;
+    bottom: 120px;
+    width: 200px;
+    left: 20px;
+  }
+  .men-b .left .nap {
+    bottom: 10px;
+  }
+  .MyOrderHead {
+    max-width: 800px !important;
+  }
+  .StatusRefund {
+    max-width: 800px !important;
+  }
+  .StatusRefundBox {
+    max-width: 800px !important;
+  }
+  .MyOrderPlaced {
+    max-width: 800px !important;
+  }
+  .OrderSum {
+    max-width: 800px;
+  }
+  .OrderSumSection {
+    max-width: 800px;
+  }
+  .OrderSumInvoice {
+    max-width: 800px;
+  }
+  .return {
+    max-width: 800px;
+  }
+  .MyOrderTwoSec {
+    max-width: 800px;
+  }
+  .ReturnCom {
+    max-width: 800px;
+  }
+  .shopping {
+    max-width: 800px;
+  }
+  .shoppingAddress {
+    max-width: 800px;
+  }
+  .shoppingTwoSec {
+    max-width: 800px;
+  }
+  .StatusRefundTwoSec {
+    max-width: 800px;
+  }
+  .your-add-threeSec {
+    max-width: 800px;
+    grid-template-columns: auto auto;
+  }
+  .your-add {
+    max-width: 800px;
+  }
+  .profileEdit {
+    max-width: 800px;
+  }
+  .customerSer {
+    max-width: 800px;
+  }
+  .customerSerHead {
+    max-width: 800px;
+  }
+  .specialTable {
+    max-width: 400px !important;
+  }
+  .FAQ {
+    max-width: 800px;
+  }
+  .FAQInput {
+    max-width: 800px;
+  }
+  .FAQtwosec {
+    max-width: 800px;
+  }
+
+  .facial {
+    max-width: 800px;
+  }
+  .facialH1 {
+    max-width: 800px;
+  }
+  .facialAdd {
+    max-width: 800px;
+  }
+  .facialDesc {
+    max-width: 800px;
+  }
+  .facialTwosec {
+    max-width: 800px;
+    display: block;
+  }
+  .facialTwosec .left {
+    width: 60%;
+    margin-bottom: 20px !important;
+    margin: auto;
+  }
+  .facialCon {
+    max-width: 800px;
+  }
+  .facialThreeSec {
+    max-width: 800px;
+  }
+  .facialThreeImg {
+    max-width: 800px;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+  }
+  .facialThreeImg div {
+    width: 380px;
+    margin-top: 5% !important;
+  }
+
+  .returnRefundPdiv {
+    max-width: 800px;
+  }
+  .returnRefundPdiv2 {
+    max-width: 800px;
+  }
+
+  .SingleP {
+    max-width: 800px;
+    display: block;
+    position: relative;
+  }
+
+  .nnn {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .SingleP .midOilthree {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto auto;
+    width: 300px;
+    position: absolute;
+    justify-content: center;
+  }
+  .SingleP .mid img {
+    width: 100%;
+  }
+  .vegLogo .first img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .amazon {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 800px;
+    margin-top: 5% !important;
+  }
+  .amazon h2 {
+    border-bottom: 0px !important;
+  }
+  .SingleP .right {
+    width: 100%;
+  }
+
+  .SingleP .right .left {
+    display: none;
+  }
+
+  .Tog {
+    max-width: 800px;
+  }
+
+  .Syrup {
+    max-width: 800px;
+  }
+
+  .Syrup .ImagesS {
+    width: 250px;
+    height: 250px;
+  }
+
+  .plus {
+    padding-top: 20px;
+  }
+
+  .technI {
+    max-width: 800px;
+  }
+  .TB {
+    max-width: 800px;
+  }
+  .ProductReviews {
+    max-width: 800px;
+  }
+  .shoppingH2{
+    max-width: 800px;
+  }
+  .shoppingTrackBtn{
+    max-width: 800px;
+    gap: 10px;
+  }
+  .OrderSummary{
+    max-width: 800px;
+    display: block;
+  }
+  .OrderSummary .left{
+    width: 100%;
+  }
+  .OrderSummary .right{
+    width: 100%;
+    margin: auto;
+  }
+  #MyFormNew {
+    margin-left: auto;
+  }
+  .ReturnRefund{
+    max-width: 800px;
+  }
+  .secondSummm{
+    max-width: 800px;
+  }
+  .ReturnRefund button{
+    width: 200px;
+
   }
 }
