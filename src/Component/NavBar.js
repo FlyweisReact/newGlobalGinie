@@ -125,31 +125,31 @@ const NavBar = () => {
             </p>
             <ul style={{ marginTop: "5%" }}>
               <li onClick={() => NavigationHandler("/second")}>
-                <p>BABY & MOM</p> <img src={arrow2} alt="" />{" "}
+                <p>Baby & Mom</p> <img src={arrow2} alt="" />{" "}
               </li>
 
               <li onClick={() => NavigationHandler("/per")}>
-                <p>BEAUTY & COSMETICS </p> <img src={arrow2} alt="" />{" "}
+                <p>Beauty & Cosmetics </p> <img src={arrow2} alt="" />{" "}
               </li>
 
               <li onClick={() => NavigationHandler("/tech")}>
-                <p>GADGETS & ELECTRONICS</p> <img src={arrow2} alt="" />{" "}
+                <p>Gadgets & Eelectronics</p> <img src={arrow2} alt="" />{" "}
               </li>
 
               <li onClick={() => NavigationHandler("/gym")}>
-                <p> HEALTH & PERSONAL CARE </p> <img src={arrow2} alt="" />{" "}
+                <p> Health & Personal Care </p> <img src={arrow2} alt="" />{" "}
               </li>
 
               <li onClick={() => NavigationHandler("/life")}>
-                <p> LIFESTYLE & SPORTS </p> <img src={arrow2} alt="" />{" "}
+                <p> Lifestyle & Sports</p> <img src={arrow2} alt="" />{" "}
               </li>
 
               <li onClick={() => NavigationHandler("/mens")}>
-                <p>MEN’S GROOMING ESSENTIALS</p> <img src={arrow2} alt="" />{" "}
+                <p>Mmen's Grooming Essentials</p> <img src={arrow2} alt="" />{" "}
               </li>
 
               <li onClick={() => NavigationHandler("/home")}>
-                <p> HOME & KITCHEN </p> <img src={arrow2} alt="" />{" "}
+                <p> Home & Kitchen</p> <img src={arrow2} alt="" />{" "}
               </li>
             </ul>
 

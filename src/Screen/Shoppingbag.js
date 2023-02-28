@@ -13,13 +13,23 @@ import Whatsapp from "../Assets/Whatsapp icon.png";
 import phone from "../Assets/Phone call.png";
 import Mail from "../Assets/Mail Icon.png";
 import Footer from "../Component/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Shoppingbag = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="MyOrderHead">
-      <h1 style={{ textAlign: "center", display: "block", margin: "auto" }}>
-         SHOPPING BAG</h1>
+        <h1
+          style={{
+            textAlign: "center",
+            display: "block",
+            margin: "auto",
+            fontFamily: "MonumentMineMine",
+          }}
+        >
+          SHOPPING BAG
+        </h1>
       </div>
 
       <div className="OrderSummary secondSummm">
@@ -28,7 +38,12 @@ const Shoppingbag = () => {
             <p className="sectionP">
               Returns & Refund Policy{" "}
               <span>
-                <img src={img4} alt="" />
+                <img
+                  src={img4}
+                  alt=""
+                  onClick={() => navigate("/returnRefundPolicy")}
+                  style={{ cursor: "pointer" }}
+                />
               </span>
             </p>
             <hr style={{ marginBottom: "10%" }} />
@@ -77,7 +92,12 @@ const Shoppingbag = () => {
             <p className="sectionP">
               Returns & Refund Policy{" "}
               <span>
-                <img src={img4} alt="" />
+                <img
+                  src={img4}
+                  alt=""
+                  onClick={() => navigate("/returnRefundPolicy")}
+                  style={{ cursor: "pointer" }}
+                />
               </span>
             </p>
             <hr style={{ marginBottom: "10%" }} />
@@ -121,7 +141,12 @@ const Shoppingbag = () => {
             <p className="sectionP">
               Returns & Refund Policy{" "}
               <span>
-                <img src={img4} alt="" />
+                <img
+                  src={img4}
+                  alt=""
+                  onClick={() => navigate("/returnRefundPolicy")}
+                  style={{ cursor: "pointer" }}
+                />
               </span>
             </p>
             <hr style={{ marginBottom: "10%" }} />
@@ -200,7 +225,9 @@ const Shoppingbag = () => {
           </div>
 
           <hr style={{ border: "1px solid black" }} />
-          <button>PROCEED TO CHECKOUT</button>
+          <button onClick={() => navigate("/addressCheckOut")}>
+            PROCEED TO CHECKOUT
+          </button>
         </div>
       </div>
 
@@ -244,7 +271,9 @@ const Shoppingbag = () => {
         </div>
 
         <hr style={{ border: "1px solid black" }} />
-        <button>PROCEED TO CHECKOUT</button>
+        <button onClick={() => navigate("/addressCheckOut")}>
+          PROCEED TO CHECKOUT
+        </button>
       </div>
 
       <div className="ReturnRefund">

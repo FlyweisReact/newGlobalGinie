@@ -36,6 +36,7 @@ import TermsCondition from "./Screen/TermsCondition";
 import Facial from "./Screen/Facial";
 import FAQ from "./Screen/FAQ";
 import ReturnCom from "./Screen/ReturnCom";
+import AddressCheckout from "./Screen/AddressCheckout";
 
 const App = () => {
   useEffect(() => {
@@ -90,6 +91,8 @@ const App = () => {
 
           {/* 404 Page  */}
           <Route path="*" element={<PageNotFound />} />
+
+          <Route path="/addressCheckOut" element={<AddressCheckout />} />
         </Routes>
       </BrowserRouter>
     </>

@@ -21,10 +21,6 @@ const Accept = () => {
   const navigate = useNavigate();
   return (
     <>
-      {/* <div className="MyOrderHead">
-        <img src={img1} alt="" />
-      </div> */}
-
       <div className="shopping" >
         <div>
           <h1>
@@ -65,7 +61,7 @@ const Accept = () => {
       <h1
         style={{
           textAlign: "center",
-          fontFamily: "MonumentMine",
+          fontFamily: "MonumentMineMine" ,
           marginTop: "5%",
         }}
       >

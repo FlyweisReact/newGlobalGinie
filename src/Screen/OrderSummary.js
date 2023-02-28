@@ -11,13 +11,23 @@ import Whatsapp from "../Assets/Whatsapp icon.png";
 import phone from "../Assets/Phone call.png";
 import Mail from "../Assets/Mail Icon.png";
 import Footer from "../Component/Footer";
+import { useNavigate } from "react-router-dom";
 
 const OrderSummary = () => {
+  const navigate= useNavigate()
   return (
     <>
       <div className="MyOrderHead">
-      <h1 style={{ textAlign: "center", display: "block", margin: "auto" }}>
-        ORDER SUMMARY</h1>
+        <h1
+          style={{
+            textAlign: "center",
+            display: "block",
+            margin: "auto",
+            fontFamily: "MonumentMineMine",
+          }}
+        >
+          ORDER SUMMARY
+        </h1>
       </div>
 
       <div className="OrderSummary">
@@ -159,7 +169,7 @@ const OrderSummary = () => {
           </div>
 
           <hr style={{ border: "1px solid black" }} />
-          <button>PROCEED TO CHECKOUT</button>
+          <button onClick={() => navigate("/shopping")}>PROCEED TO CHECKOUT</button>
         </div>
       </div>
 
@@ -203,10 +213,9 @@ const OrderSummary = () => {
         </div>
 
         <hr style={{ border: "1px solid black" }} />
-        <button>PROCEED TO CHECKOUT</button>
+        <button onClick={() => navigate("/shopping")}>PROCEED TO CHECKOUT</button>
       </div>
 
-   
       <div className="BanImage">
         <img src={newImg12} alt="" />
       </div>

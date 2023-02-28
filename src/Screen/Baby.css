@@ -5,7 +5,7 @@
   margin-bottom: 6%;
 }
 .NewP h1 {
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
   font-size: 3.5rem;
 }
 
@@ -13,6 +13,9 @@
   font-size: 2rem;
   color: #ccc;
   font-family: FuturaMine;
+}
+.NewP h2{
+  font-family: MonumentMineMine;
 }
 
 .child {
@@ -27,7 +30,7 @@
 }
 
 .child .month {
-  font-size: 2rem;
+  font-size: 1.6rem;
   border-radius: 10px;
   border: 1px solid black;
   padding: 10px;

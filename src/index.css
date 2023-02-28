@@ -160,11 +160,11 @@ code {
 }
 
 .two-sec .right h1 {
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
   font-size: 3rem;
 }
 .two-sec .right h2 {
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
   font-size: 3rem;
 }
 .two-sec .right button {
@@ -265,7 +265,7 @@ code {
   width: 50%;
 }
 .myNewOldSec .left img {
-  width: 80%;
+  width: 100%;
   height: 100%;
 }
 .myNewOldSec .right {
@@ -491,7 +491,7 @@ code {
 .Give h1 {
   padding-top: 5%;
   font-size: 2.2rem;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 .Give h2 {
   margin-top: 1%;
@@ -925,7 +925,7 @@ input[type="date"] {
   padding-top: 20%;
   letter-spacing: 5px;
   font-weight: 400;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 
 .gym-B .left h2 {
@@ -1182,7 +1182,7 @@ input[type="date"] {
 }
 .MyOrderHead .SS p {
   font-size: 2rem;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
   color: #a8a8a8;
 }
 .MyOrderHead .SS div {
@@ -1204,7 +1204,7 @@ input[type="date"] {
   color: #fff;
   background-color: #000207;
   border-radius: 5px;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 
 .MyOrderFour {
@@ -1666,7 +1666,7 @@ input[type="date"] {
   font-family: NexaBold;
 }
 .OrderSummary .right .upper p {
-  font-family: NexaBold
+  font-family: NexaBold;
 }
 .OrderSummary .right button {
   border: 1px solid black;
@@ -1785,6 +1785,7 @@ input[type="date"] {
   color: #fff;
   font-weight: bold;
   border-radius: 10px;
+  width: 200px;
   font-family: MonumentMineMine;
 }
 /* -------------------------------------------------------------------- */
@@ -1845,7 +1846,7 @@ input[type="date"] {
   border-top: 1px solid black;
   color: #fff;
   text-align: center;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 .StatusRefundBox .right .boxs div {
   margin-top: 3%;
@@ -1875,7 +1876,7 @@ input[type="date"] {
   border-top: 1px solid black;
   color: #fff;
   text-align: center;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 .boxs2 h4 {
   margin-left: 10px;
@@ -1898,7 +1899,7 @@ input[type="date"] {
 .StatusRefundBox .left .second .Fir .Second {
   display: flex;
   gap: 10px;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 .StatusRefundBox .left .second .New {
   display: flex;
@@ -1937,7 +1938,7 @@ input[type="date"] {
 
 .your-add-threeSec .mid {
   padding-left: 10px;
-  font-family: MonumentMine;
+  font-family: MonumentMineMine;
 }
 .your-add-threeSec .mid span {
   font-size: 1.1rem;
@@ -1963,7 +1964,6 @@ input[type="date"] {
   margin-top: 5%;
   font-size: 1.7rem;
   font-family: MonumentMineMine;
-  /* font-weight: bold; */
 }
 
 .profileEdit .big .dwn {
@@ -2006,6 +2006,7 @@ input[type="date"] {
   width: 200px;
   padding: 10px;
   border-radius: 10px;
+  font-family: FuturaMine;
 }
 
 .ProfileHidden div button {
@@ -2015,7 +2016,7 @@ input[type="date"] {
   background-color: black;
   color: white;
   font-size: 1.3rem;
-  font-family: Nexa Bold;
+  font-family: NexaBold;
   font-weight: lighter;
 }
 
@@ -2593,7 +2594,7 @@ input[type="date"] {
   .returnRefundPdiv2 {
     max-width: 1000px;
   }
-  .ReturnRefund{
+  .ReturnRefund {
     max-width: 1000px;
   }
 
@@ -2631,26 +2632,30 @@ input[type="date"] {
   .ProductReviews {
     max-width: 1000px;
   }
-  .shoppingH2{
+  .shoppingH2 {
     max-width: 1000px;
   }
-  .shoppingTrackBtn{
+  .shoppingTrackBtn {
     max-width: 1000px;
   }
 
-  .OrderSummary{
+  .OrderSummary {
     max-width: 1000px;
   }
-  .secondSummm{
+  .secondSummm {
     display: block;
   }
-  .secondSummm .left{
+  .secondSummm .left {
     width: 100%;
   }
 
-  .secondSummm .right{
+  .secondSummm .right {
     width: 100%;
     margin-left: 0;
+  }
+
+  .specialLastBtn{
+    margin-left: 15% !important;
   }
 }
 
@@ -2956,35 +2961,54 @@ input[type="date"] {
   .ProductReviews {
     max-width: 800px;
   }
-  .shoppingH2{
+  .shoppingH2 {
     max-width: 800px;
   }
-  .shoppingTrackBtn{
+  .shoppingTrackBtn {
     max-width: 800px;
     gap: 10px;
   }
-  .OrderSummary{
+  .OrderSummary {
     max-width: 800px;
     display: block;
   }
-  .OrderSummary .left{
+  .OrderSummary .left {
     width: 100%;
   }
-  .OrderSummary .right{
+  .OrderSummary .right {
     width: 100%;
     margin: auto;
   }
   #MyFormNew {
     margin-left: auto;
   }
-  .ReturnRefund{
+  .ReturnRefund {
     max-width: 800px;
   }
-  .secondSummm{
+  .secondSummm {
     max-width: 800px;
   }
-  .ReturnRefund button{
+  .ReturnRefund button {
     width: 200px;
-
   }
+
+  .specialLastBtn{
+    margin-left: 0% !important;
+    display: block !important;
+    margin: auto !important;
+    margin-bottom: 5% !important;
+  }
+}
+
+
+
+.specialLastBtn{
+  margin-left: 13%;
+  width: 300px;
+  background-color: #000;
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 100px;
+  padding: 10px;
+  border-radius: 10px;
 }

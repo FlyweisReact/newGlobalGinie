@@ -1,8 +1,6 @@
 /** @format */
 
-import React from "react";
-
-
+import React , {useEffect} from "react";
 import Whatsapp from "../Assets/Whatsapp icon.png";
 import phone from "../Assets/Phone call.png";
 import Mail from "../Assets/Mail Icon.png";
@@ -10,6 +8,9 @@ import Footer from "../Component/Footer";
 import newImg12 from "../Images/GET ME THIS Desktop.jpg";
 
 const ReturnRefund = () => {
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
   return (
     <>
       <h1 className="returnRefundP">RETURNS & REFUNDS POLICY</h1>

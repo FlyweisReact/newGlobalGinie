@@ -43,7 +43,7 @@ function MyVerticallyCenteredModal(props) {
           </div>
           <div>
             <h6> Theglobalgenie</h6>
-            <p>
+            <p style={{fontFamily : 'FuturaMine'}}>
               401121, Van Nostrand Ave, Mumbai <br />
               Mob No:- +918757938869
             </p>

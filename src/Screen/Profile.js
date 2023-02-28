@@ -21,9 +21,8 @@ const Profile = () => {
           <div className="dwn">
             <p
               style={{
-                fontFamily: "Futura Hv BT",
-                fontSize: "1.7rem",
-                fontWeight: "bold",
+                fontFamily: "NexaBold",
+                fontSize: "1.7rem"
               }}
             >
               Name :
@@ -31,9 +30,8 @@ const Profile = () => {
             <div>
               <p
                 style={{
-                  fontFamily: "Futura Hv Bt",
+                  fontFamily: "NexaBold",
                   fontSize: "1.6rem",
-                  fontWeight: "lighter",
                 }}
               >
                 Shravan
@@ -51,14 +49,14 @@ const Profile = () => {
           <img
             src={img1}
             alt=""
-            style={{ marginLeft: "90%", transform: "rotate(270deg)" }}
+            style={{ marginLeft: "90%", transform: "rotate(270deg)" , width : '40px' }}
           />
           <p
             style={{
-              fontFamily: "Futura",
               marginLeft: "5%",
               marginTop: "0",
               fontSize: "1.4rem",
+              fontFamily : "FuturaMine"
             }}
           >
             If you want to change the name associated with your Amazon customer
@@ -77,9 +75,8 @@ const Profile = () => {
           <div className="dwn">
             <p
               style={{
-                fontFamily: "Futura",
+                fontFamily: "NexaBold",
                 fontSize: "1.7rem",
-                fontWeight: "bold",
               }}
             >
               Email:
@@ -87,9 +84,8 @@ const Profile = () => {
             <div>
               <p
                 style={{
-                  fontFamily: "Futura",
+                  fontFamily: "NexaBold",
                   fontSize: "1.6rem",
-                  fontWeight: "lighter",
                 }}
               >
                 Shravan10official@gmail.com
@@ -106,12 +102,12 @@ const Profile = () => {
         >
           <div className="upper">
             <h6>Change your email address</h6>
-            <img src={img1} alt="" style={{ transform: "rotate(270deg)" }} />
+            <img src={img1} alt="" style={{ transform: "rotate(270deg)"  , width : '40px'}} />
           </div>
 
           <p
             style={{
-              fontFamily: "Futura",
+              fontFamily : "FuturaMine",
               marginLeft: "5%",
               marginTop: "0",
               fontSize: "1.4rem",
@@ -122,7 +118,7 @@ const Profile = () => {
           </p>
           <p
             style={{
-              fontFamily: "Futura",
+              fontFamily : "FuturaMine",
               marginLeft: "5%",
               marginTop: "0",
               fontSize: "1.4rem",
@@ -144,7 +140,7 @@ const Profile = () => {
           <div className="dwn">
             <p
               style={{
-                fontFamily: "Futura",
+                fontFamily: "NexaBold",
                 fontSize: "1.7rem",
                 fontWeight: "bold",
               }}
@@ -154,7 +150,7 @@ const Profile = () => {
             <div>
               <p
                 style={{
-                  fontFamily: "Futura",
+                  fontFamily : "FuturaMine",
                   fontSize: "1.6rem",
                   fontWeight: "lighter",
                 }}
@@ -173,12 +169,12 @@ const Profile = () => {
         >
           <div className="upper">
             <h6>Change Mobile Number</h6>
-            <img src={img1} alt="" style={{ transform: "rotate(270deg)" }} />
+            <img src={img1} alt="" style={{ transform: "rotate(270deg)" ,width : '40px'}} />
           </div>
 
           <p
             style={{
-              fontFamily: "Futura",
+              fontFamily : "FuturaMine",
               marginLeft: "5%",
               marginTop: "0",
               fontSize: "1.4rem",
@@ -197,7 +193,7 @@ const Profile = () => {
 
           <p
             style={{
-              fontFamily: "Futura",
+              fontFamily : "FuturaMine",
               marginLeft: "5%",
               marginTop: "2%",
               fontSize: "1.4rem",
@@ -220,9 +216,8 @@ const Profile = () => {
           <div className="dwn">
             <p
               style={{
-                fontFamily: "Futura",
+                fontFamily: "NexaBold",
                 fontSize: "1.7rem",
-                fontWeight: "bold",
               }}
             >
               Password:
@@ -230,9 +225,8 @@ const Profile = () => {
             <div>
               <p
                 style={{
-                  fontFamily: "Futura",
+                  fontFamily : "FuturaMine",
                   fontSize: "1.6rem",
-                  fontWeight: "lighter",
                 }}
               >
                 **********
@@ -250,7 +244,7 @@ const Profile = () => {
           <div className="upper">
             <p
               style={{
-                fontFamily: "Futura",
+                fontFamily : "FuturaMine",
                 marginLeft: "5%",
                 marginTop: "0",
                 fontSize: "1.4rem",
@@ -258,7 +252,7 @@ const Profile = () => {
             >
               Use the form below to change the password for your Amazon account
             </p>
-            <img src={img1} alt="" style={{ transform: "rotate(270deg)" }} />
+            <img src={img1} alt="" style={{ transform: "rotate(270deg)" ,width : '40px' }} />
           </div>
 
           <h6>Current password:</h6>
