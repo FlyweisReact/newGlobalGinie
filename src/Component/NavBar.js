@@ -145,7 +145,7 @@ const NavBar = () => {
               </li>
 
               <li onClick={() => NavigationHandler("/mens")}>
-                <p>Mmen's Grooming Essentials</p> <img src={arrow2} alt="" />{" "}
+                <p>Men's Grooming Essentials</p> <img src={arrow2} alt="" />{" "}
               </li>
 
               <li onClick={() => NavigationHandler("/home")}>
